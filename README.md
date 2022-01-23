@@ -2,7 +2,7 @@
 
 ## About
 
-I'm making notebooks. As a hobby. And I figured, why not make them open source.
+I make notebooks. As a hobby. And I figured, why not make them open source.
 
 ![A notebook, closed, bound in cork leather.](notebook.jpg)
 
