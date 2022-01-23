@@ -22,7 +22,7 @@ The following documentation is already available:
 
 ## License
 
-This project is open source, licensed under the terms of the [Zero Clause BSD License] (0BSD, for short), with the addition that the word "software", as used in the license, refers to all copyrighted material that documents the production process of these notebooks.
+This project is open source, licensed under the terms of the [Zero Clause BSD License] (0BSD, for short), with the addition that the word "software", as used in the license, refers to all copyrighted material in the [`documentation/`](documentation) folder.
 
 This basically means you can do anything with this project, without any restrictions, but you can't hold the authors liable for problems.
 
