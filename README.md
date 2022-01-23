@@ -15,9 +15,9 @@ In a literal sense, a notebook isn't hardware. But this is still an open hardwar
 
 The following documentation is already available:
 
-- Tools: [documentation/tools.md](documentation/tools.md)
-- Materials: [documentation/materials.md](documentation/materials.md)
-- Build process: [documentation/build-process.md](documentation/build-process.md)
+- Tools: [`documentation/tools.md`](documentation/tools.md)
+- Materials: [`documentation/materials.md`](documentation/materials.md)
+- Build process: [`documentation/build-process.md`](documentation/build-process.md)
 
 
 ## License
