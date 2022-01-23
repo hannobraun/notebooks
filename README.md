@@ -20,6 +20,11 @@ The following documentation is available in separate files in the `documentation
 - Build process: [`documentation/build-process.md`](documentation/build-process.md)
 
 
+## Build Log
+
+I keep a build log of my notebook builds (and related activities) in [`build-log.md`](build-log.md).
+
+
 ## License
 
 This project is open source, licensed under the terms of the [Zero Clause BSD License] (0BSD, for short), with the addition that the word "software", as used in the license, refers to all copyrighted material in the [`documentation/`](documentation) folder.
