@@ -13,7 +13,7 @@ In a literal sense, a notebook isn't hardware. But this is still an open hardwar
 
 ## Documentation
 
-The following documentation is already available:
+The following documentation is available in separate files in the `documentation/` directory:
 
 - Tools: [`documentation/tools.md`](documentation/tools.md)
 - Materials: [`documentation/materials.md`](documentation/materials.md)
