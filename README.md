@@ -18,6 +18,7 @@ The documentation in this repository is incomplete. For now, please refer to [my
 The following documentation is already available:
 
 - Tools: [documentation/tools.md](documentation/tools.md)
+- Materials: [documentation/materials.md](documentation/materials.md)
 
 
 ## License
