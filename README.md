@@ -13,12 +13,11 @@ In a literal sense, a notebook isn't hardware. But this is still an open hardwar
 
 ## Documentation
 
-The documentation in this repository is incomplete. For now, please refer to [my build report of the first notebook](https://hanno.braun-odw.eu/notes/notebook/). As I make more, I will document the process more thoroughly here.
-
 The following documentation is already available:
 
 - Tools: [documentation/tools.md](documentation/tools.md)
 - Materials: [documentation/materials.md](documentation/materials.md)
+- Build process: [documentation/build-process.md](documentation/build-process.md)
 
 
 ## License
