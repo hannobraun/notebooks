@@ -2,7 +2,7 @@
 
 ## Custom-built
 
-So far, I've built one custom tool for making notebooks: A rather shitty book press, inspired by [this video by SeaLemon on YouTube](https://www.youtube.com/watch?v=nTeg8MH0PtI).
+So far, I've custom-built one tool: a simple [book press](tools/book-press.md).
 
 
 ## Specific tools
