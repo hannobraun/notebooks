@@ -22,7 +22,7 @@ The following documentation is available in separate files in the `documentation
 
 ## Build Log
 
-I keep a build log of my notebook builds (and related activities) in [`build-log.md`](build-log.md).
+I keep a build log of my notebook builds (and related activities) in [`work-log.md`](work-log.md).
 
 
 ## License
