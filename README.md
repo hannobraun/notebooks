@@ -20,9 +20,9 @@ The following documentation is available in separate files in the `documentation
 - Build process: [`documentation/build-process.md`](documentation/build-process.md)
 
 
-## Build Log
+## Work Log
 
-I keep a build log of my notebook builds (and related activities) in [`work-log.md`](work-log.md).
+I keep a work log of my notebook builds (and related activities) in [`work-log.md`](work-log.md).
 
 
 ## License
