@@ -37,6 +37,35 @@ This video shows how to do that: https://www.youtube.com/watch?v=H8wlmwZC_g4
 
 Follow the technique in this video: https://www.youtube.com/watch?v=XGQ5P8QVHSg&t=96s
 
+5. Put the text block into the book press, to hold it in place.
+6. Align the signatures, so the spine forms as straight a wall as feasible.
+
+It doesn't need to be perfect. Just do the best you can, and make sure no signatures are hidden because they are recessed.
+
+7. Clamp down the book press.
+8. Apply a layer of PVA glue to the spine. Let it dry for 30 minutes.
+9. Apply another layer of PVA glue. Let it dry for 30 minutes.
+
+
+## Create the end pages
+
+1. Fold a sheet of thick paper along the middle.
+2. Cut off the folded end.
+
+This should result in two A5-ish-sized sheets of thick paper.
+
+3. Fold the sheets of paper along the middle again.
+4. Glue the folded sheets, to create sheets with double the thickness.
+  1. Apply PVA glue to half of the inner side of the folded sheets.
+  2. Close it again and press it together.
+
+
+## Strengthen the text block
+
+1. Glue the end pages to the text block.
+  1. Apply about 10mm of PVA glue on one side of each end page, along the folded edge.
+  2. Press the end page onto the text block, so the edge next to the glued part lines up with the spine.
+
 ---
 
 I haven't gotten any further yet with notebook #2.
