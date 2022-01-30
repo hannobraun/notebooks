@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Finished sewing and glueing notebook #2.
 
+![Notebook #2, sewed and glued](work-log/2022-01-29.jpg)
+
 
 ## 2022-01-23
 
