@@ -7,9 +7,9 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 ## 2022-01-30
 
-Notebook #2:
-- Glued on end pages.
-- Glued on protective paper to the spine.
+Finished notebook #2.
+
+![Notebook #2, finished](work-log/2022-01-30.jpg)
 
 
 ## 2022-01-29
