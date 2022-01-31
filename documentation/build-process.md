@@ -65,7 +65,51 @@ This should result in two A5-ish-sized sheets of thick paper.
 1. Glue the end pages to the text block.
   1. Apply about 10mm of PVA glue on one side of each end page, along the folded edge.
   2. Press the end page onto the text block, so the edge next to the glued part lines up with the spine.
+2. Clamp notebook in the book press.
+3. Let the glue dry for 30 minutes.
 
----
+Next, during the build for notebook #2, I glued a piece of thick paper to the spine, and the back end of the sides of the text block. This didn't work out so well, so I don't want to document it here. I'll try something for the build of notebook #3 and will document it, if it works.
 
-I haven't gotten any further yet with notebook #2.
+
+## Add the cover
+
+1. Cut out a rectangular piece of cork.
+
+It should be enough, that it will protrude everywhere after you glued it to the text block.
+
+2. Apply PVA glue to one side of the text block.
+3. Glue cover onto that side.
+4. Clamp in book press, let it dry for 30 minutes.
+5. Apply PVA glue to spine and other side of the text block.
+6. Glue on rest of cover.
+
+Pull the side of the cover that you're now glueing on towards the front of the text block, to make sure there is only a minimal gap between the spine of the text block and the cover there.
+
+7. Clamp in book press, let it dry for 30 minutes.
+
+
+## Finish the notebook
+
+1. Use combination square and knife to cut off a few millimeters of material on the left and right side of the notebook.
+
+The goal here is to remove the chaos of protruding and recessed signatures, and the protruding cork cover. The result will invariably still be crooked, but don't worry.
+
+2. Use coarse sandpaper (P40) to sand the walls straight.
+
+Just do it by eye. If it looks straight, it is straight. If it doesn't look straight, use combination square to check what you need to remove, using the spine as reference.
+
+3. Cut and sand the front side in the same manner.
+
+Use one of the newly sanded sides as reference for the combination square.
+
+4. Round corners of all pages using the corner punch.
+
+Doing three pages at a time is a reasonable maximum.
+
+5. Round corners of the cover.
+
+They're too thick for the corner punch. Use a knife, and cut along the previously rounded paper corners. If that doesn't result in a sufficiently round appearance, carefully use the sandpaper to round it off.
+
+6. Sign the notebook on one of the end pages
+
+This is it, done!
