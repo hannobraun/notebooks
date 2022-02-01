@@ -34,4 +34,4 @@ This basically means you can do anything with this project, without any restrict
 See [LICENSE.md] for more details.
 
 [Zero Clause BSD License]: https://opensource.org/licenses/0BSD
-[LICENSE.md]: https://github.com/hannobraun/fornjot/blob/main/LICENSE.md
+[LICENSE.md]: LICENSE.md
