@@ -19,6 +19,8 @@ The following documentation is available in separate files in the `documentation
 - Materials: [`documentation/materials.md`](documentation/materials.md)
 - Build process: [`documentation/build-process.md`](documentation/build-process.md)
 
+There also [`improvements.md`](improvements.md), where I keep a list of desired process and product improvements.
+
 
 ## Work Log
 
