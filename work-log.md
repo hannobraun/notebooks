@@ -5,6 +5,11 @@ I have a daily habit of working on side projects. These projects used to be all 
 As I move more into physical projects, this doesn't work as well. But I do really like that daily commit as a way to track my habit, and I've decided I want to keep it. Hence this work log. Whenever I do work on this project that otherwise wouldn't result in a commit to this repository, I document it here.
 
 
+## 2022-02-01
+
+Ordered more cork (my initial order lasted for 2 notebooks). Did research about materials I can use for the bookmark, and some kind of flexible ribbon to keep the notebook closed, but couldn't find anything I was happy with.
+
+
 ## 2022-01-30
 
 Finished notebook #2.
