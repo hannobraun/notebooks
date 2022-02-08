@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Started working on notebook #3. Finished sewing the text block.
 
+![Notebook #3, text block sewn](work-log/2022-02-06.jpg)
+
 
 ## 2022-02-01
 
