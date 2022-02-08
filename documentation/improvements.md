@@ -18,4 +18,6 @@
 
 - Make sure spine is straight, and there's not a large gap to the cover
 - Add ribbon that can be used as bookmark
+  https://www.schmedt.de/zeichenlitze-lesezeichenband-spitzenqualitaet/50825483
 - Add flexible band that can keep the notebook closed
+  https://www.schmedt.de/gummilitze-flach-umsponnen-mit-einem-farbigen-faden/51865002
