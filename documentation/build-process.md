@@ -75,7 +75,7 @@ Next, during the build for notebook #2, I glued a piece of thick paper to the sp
 
 1. Cut out a rectangular piece of cork.
 
-It should be enough, that it will protrude everywhere after you glued it to the text block.
+It should be big enough, that it will protrude everywhere after you glued it to the text block.
 
 2. Apply PVA glue to one side of the text block.
 3. Glue cover onto that side.
