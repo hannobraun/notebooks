@@ -56,15 +56,15 @@ This should result in two A5-ish-sized sheets of thick paper.
 
 3. Fold the sheets of paper along the middle again.
 4. Glue the folded sheets, to create sheets with double the thickness.
-  1. Apply PVA glue to half of the inner side of the folded sheets.
-  2. Close it again and press it together.
+   1. Apply PVA glue to half of the inner side of the folded sheets.
+   2. Close it again and press it together.
 
 
 ## Strengthen the text block
 
 1. Glue the end pages to the text block.
-  1. Apply about 10mm of PVA glue on one side of each end page, along the folded edge.
-  2. Press the end page onto the text block, so the edge next to the glued part lines up with the spine.
+   1. Apply about 10mm of PVA glue on one side of each end page, along the folded edge.
+   2. Press the end page onto the text block, so the edge next to the glued part lines up with the spine.
 2. Clamp notebook in the book press.
 3. Let the glue dry for 30 minutes.
 
