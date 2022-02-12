@@ -7,7 +7,7 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 ## 2022-02-12
 
-Started glueing the spine of notebook #3.
+Continued working on notebook #3. Glued the spine; glued on the end pages and the mull. It's ready for glueing on the cover now.
 
 
 ## 2022-02-06
