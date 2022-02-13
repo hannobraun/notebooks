@@ -5,6 +5,11 @@ I have a daily habit of working on side projects. These projects used to be all 
 As I move more into physical projects, this doesn't work as well. But I do really like that daily commit as a way to track my habit, and I've decided I want to keep it. Hence this work log. Whenever I do work on this project that otherwise wouldn't result in a commit to this repository, I document it here.
 
 
+## 2022-02-13
+
+Glued the cover on notebook #3. It's ready for finishing now.
+
+
 ## 2022-02-12
 
 Continued working on notebook #3. Glued the spine; glued on the end pages and the mull. It's ready for glueing on the cover now.
