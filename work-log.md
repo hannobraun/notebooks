@@ -7,7 +7,7 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 ## 2022-02-13
 
-Glued the cover on notebook #3. It's ready for finishing now.
+Glued the cover on notebook #3. Started finishing it.
 
 
 ## 2022-02-12
