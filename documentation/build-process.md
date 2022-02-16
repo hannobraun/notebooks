@@ -96,7 +96,7 @@ The goal here is to remove the chaos of protruding and recessed signatures, and 
 
 2. Use coarse sandpaper (P40) to sand the walls straight.
 
-Just do it by eye. If it looks straight, it is straight. If it doesn't look straight, use combination square to check what you need to remove, using the spine as reference.
+Just do it by eye. If it looks straight, it is straight. If it doesn't look straight, use the combination square to check what you need to remove, using the spine as reference.
 
 3. Cut and sand the front side in the same manner.
 
