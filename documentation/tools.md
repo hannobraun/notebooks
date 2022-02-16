@@ -20,5 +20,6 @@ These are just standard tools that I already had in my workshop.
 
 - A knife
 - A ruler
+- A pencil
 - A combination square
 - Coarse sandpaper (P40)
