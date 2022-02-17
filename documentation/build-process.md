@@ -38,6 +38,7 @@ Now all signatures should have the same marks as the original one.
 
 The signatures are now ready for sewing.
 
+
 ## Create the text block
 
 1. Cut off a length of thread from the spool.
