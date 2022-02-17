@@ -41,11 +41,9 @@ The signatures are now ready for sewing.
 
 ## Create the text block
 
-1. Cut off a length of thread from the spool.
+1. Cut off a bit over two arm's length of thread from the spool.
 
-In principle, the thread should be as long as possible, as you'll otherwise have to re-thread too often. In practice, making the thread too long makes it hard to handle and causes a lot of extra work.
-
-Make the thread as long as you can comfortably handle after it's doubled up. I'll try to figure out how long exactly that is, over the next builds.
+By making it a bit over two arm's lengths, it becomes a bit over one arm's length after you double it up in the next step. This is comfortable to handle, while long enough to not requiring too much re-threading
 
 2. Double-thread the needle.
 
