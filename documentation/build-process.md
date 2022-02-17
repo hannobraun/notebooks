@@ -2,7 +2,7 @@
 
 This documentation of the build process is incomplete. For now, please refer to [my build report of the first notebook](https://hanno.braun-odw.eu/notes/notebook/). As I make more notebooks, I will document the process more thoroughly here.
 
-Please refer to the documents about tools and materials, which these steps refer to.
+Please refer to the documents about tools, materials, and techniques, which these steps refer to.
 
 
 ## Prepare the signatures
@@ -46,9 +46,6 @@ The signatures are now ready for sewing.
 By making it a bit over two arm's lengths, it becomes a bit over one arm's length after you double it up in the next step. This is comfortable to handle, while long enough to not requiring too much re-threading
 
 2. Double-thread the needle.
-
-This video shows how to do that: https://www.youtube.com/watch?v=H8wlmwZC_g4
-
 3. Make a double knot at the loose ends of the double thread.
 4. Sew the signatures.
 
