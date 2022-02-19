@@ -47,10 +47,7 @@ By making it a bit over two arm's lengths, it becomes a bit over one arm's lengt
 
 2. Double-thread the needle.
 3. Make a double knot at the loose ends of the double thread.
-4. Sew the signatures.
-
-Follow the technique in this video: https://www.youtube.com/watch?v=XGQ5P8QVHSg&t=96s
-
+4. Sew the signatures. See Techniques -> Sewing.
 5. Put the text block into the book press, to hold it in place.
 6. Align the signatures, so the spine forms as straight a wall as feasible.
 
