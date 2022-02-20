@@ -36,3 +36,10 @@ The rest of the signatures are all sewn the same. They all connect to the previo
 
 Follow the technique in this video (the video explains the whole sewing process; the link points directly to the regular sewing technique):
 https://www.youtube.com/watch?v=XGQ5P8QVHSg&t=222s
+
+### Switching the thread
+
+During the sewing of the signatures, you will run out of thread. While you could use a thread long enough to prevent that from happening, such a long thread is very cumbersome and awkward to use, and it will form unintended knots all the time. Overall, this causes more work than switching the thread a few times.
+
+Follow the technique in this video (the video explains the whole sewing process; the link points directly to the switching of the thread):
+https://www.youtube.com/watch?v=XGQ5P8QVHSg&t=311s
