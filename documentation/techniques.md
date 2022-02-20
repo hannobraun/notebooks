@@ -9,7 +9,10 @@ The build process documentation refers to them here, to keep that documentation 
 
 ### Double-threading a needle
 
+Follow the instruction in this video:
 https://www.youtube.com/watch?v=H8wlmwZC_g4
+
+In addition to making a making the knot, make a second knot around the first one. The combined knots should be thick enough to not go through the sewing holes, which is important.
 
 ### Sewing the first signature
 
