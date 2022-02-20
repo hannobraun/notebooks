@@ -12,6 +12,7 @@ I've bought these specifically for making notebooks. I've linked the source I bo
 - [Awl](https://www.modulor.de/en/awl-l-125-mm-incl-point.html)
 - [Bookbinding needles](https://www.modulor.de/en/bookbinding-needle-l-62-mm-o-1-2-mm.html)
 - [Corner punch for rounded corners](https://www.modulor.de/en/corner-punch-for-roundeed-corners-radius-ca-10-mm.html)
+- [Brush for applying glue](https://www.schmedt.de/da-vinci-forte-synthetics-serie-364-flachpinsel-mit-robusten-rotbraunen-synthetikfasern/61361012)
 
 
 ## Other
