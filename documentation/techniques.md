@@ -43,3 +43,22 @@ During the sewing of the signatures, you will run out of thread. While you could
 
 Follow the technique in this video (the video explains the whole sewing process; the link points directly to the switching of the thread):
 https://www.youtube.com/watch?v=XGQ5P8QVHSg&t=311s
+
+
+## Glueing
+
+### Applying glue
+
+1. Squeeze some glue out of the bottle, roughly distributing it over the whole area that needs to be glued. If you're not sure how much to use, err on the lower side. You can always add more later.
+2. Then use the brush to distribute it more evenly, until it covers the whole surface.
+3. If necessary, add more glue from the bottle where needed, and distribute that with the brush.
+4. To the glue-up directly after. Directly after that, clean the brush (see next section).
+
+### Cleaning the brush
+
+1. Get a small container with enough water in it to submerge the bristles completely.
+2. Move the brush around in the water.
+3. Keep moving it around in the water, while pressing against the bottom of the container
+4. Wipe the bristles off against the rim of the container. It helps if that rim is sharp, and has an overhang towards the inside of the container.
+5. Repeat steps 2. to 4. until the brush is clean.
+6. Put the brush down and let it dry.
