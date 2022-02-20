@@ -45,17 +45,16 @@ The signatures are now ready for sewing.
 
 By making it a bit over two arm's lengths, it becomes a bit over one arm's length after you double it up in the next step. This is comfortable to handle, while long enough to not requiring too much re-threading
 
-2. Double-thread the needle.
-3. Make a double knot at the loose ends of the double thread.
-4. Sew the signatures. See Techniques -> Sewing.
-5. Put the text block into the book press, to hold it in place.
-6. Align the signatures, so the spine forms as straight a wall as feasible.
+2. Double-thread the needle. See Techniques -> Sewing.
+3. Sew the signatures. See Techniques -> Sewing.
+4. Put the text block into the book press, to hold it in place.
+5. Align the signatures, so the spine forms as straight a wall as feasible.
 
 It doesn't need to be perfect. Just do the best you can, and make sure no signatures are hidden because they are recessed.
 
-7. Clamp down the book press.
-8. Apply a layer of PVA glue to the spine. Let it dry for 30 minutes.
-9. Apply another layer of PVA glue. Let it dry for 30 minutes.
+6. Clamp down the book press.
+7. Apply a layer of PVA glue to the spine. Let it dry for 30 minutes.
+8. Apply another layer of PVA glue. Let it dry for 30 minutes.
 
 
 ## Create the end pages
