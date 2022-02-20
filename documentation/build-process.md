@@ -94,6 +94,8 @@ It should be big enough, that it will protrude everywhere after you glued it to 
 
 Pull the side of the cover that you're now glueing on towards the front of the text block, to make sure there is only a minimal gap between the spine of the text block and the cover there.
 
+This doesn't work totally reliably to reduce the gap. I'm working on ideas for improvements.
+
 7. Clamp in book press, let it dry for 30 minutes.
 
 
