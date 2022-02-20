@@ -10,8 +10,6 @@
   That would save some preparation work.
 - Use thick paper in the right size and thickness
   Again, would save some preparation work.
-- Get some tool for applying PVA glue
-  I've ordered this one, have yet to try it: https://www.schmedt.de/da-vinci-forte-synthetics-serie-364-flachpinsel-mit-robusten-rotbraunen-synthetikfasern/61361012
 - Find better way to cut off material
   Using a knife is tedious and requires sanding afterwards. While that gives the notebook a rough appearance that I kinda like, it would be nicer to just cut if off straight, in one go, using a specialized tool.
 
