@@ -53,8 +53,7 @@ By making it a bit over two arm's lengths, it becomes a bit over one arm's lengt
 It doesn't need to be perfect. Just do the best you can, and make sure no signatures are hidden because they are recessed.
 
 6. Clamp down the book press.
-7. Apply a layer of PVA glue to the spine. Let it dry for 30 minutes.
-8. Apply another layer of PVA glue. Let it dry for 30 minutes.
+7. Apply two layers of PVA glue to the spine. Let each dry for 30 minutes.
 
 
 ## Create the end pages
