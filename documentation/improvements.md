@@ -23,3 +23,5 @@
   https://www.schmedt.de/gummilitze-flach-umsponnen-mit-einem-farbigen-faden/51865002
 - Make the spine more robust using mull
   https://www.schmedt.de/heftgaze-in-schmalrollen-dreifaedig-3-kettfaeden/2651-060
+- Use pre-printed pages
+  I'd like to have the page number on each page, as well as a subtle grid pattern.
