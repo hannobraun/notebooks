@@ -5,6 +5,14 @@ These are specific techniques that are required in the build process. They can b
 The build process documentation refers to them here, to keep that documentation reasonable clear.
 
 
+## Folding paper
+
+1. Push a shorter edge of the paper against the straight edge of the aluminium block.
+2. Fold over the opposite edge, also push it against the straight edge.
+3. Once both of the paper edges line up, push down on the paper to prevent it from moving.
+4. Run your thumbs along the folded end of the paper, while still pushing on the paper with the rest of your fingers.
+
+
 ## Sewing
 
 ### Double-threading a needle
