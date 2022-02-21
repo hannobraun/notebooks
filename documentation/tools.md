@@ -24,3 +24,5 @@ These are just standard tools that I already had in my workshop.
 - A pencil
 - A combination square
 - Coarse sandpaper (P40)
+- An aluminium block
+  With a straight edge, heave enough to not push it around when you fold paper against it.
