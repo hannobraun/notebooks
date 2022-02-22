@@ -67,15 +67,25 @@ This should result in two A5-ish-sized sheets of thick paper.
 4. Glue the folded sheets, to create sheets with double the thickness.
    1. Apply PVA glue to half of the inner side of the folded sheets.
    2. Close it again and press it together.
+   3. Let it dry for 15 minutes.
+
+This results in two thick A6-ish-sized sheets of paper that can be used as end pages.
+
+5. Lay the two end pages on top of each other, so that the folded edges point in the right direction, and a 5mm strip along the folded edge of the bottom end page sticks out from the top one.
+6. Apply glue to that 5mm strip of the bottom end page.
+7. Switch their positions (put the bottom on on top now). Again, make it so that a 5mm strip of the (new) lower end page sticks out from below the (new top) one.
+8. Apply glue to that 5mm strip too.
+
+If you've done this correctly, you've applied glue to a 5mm strip along the folded edge of both end pages, without accidentally applying it anywhere else on the end pages.
+
+9. Glue the end pages onto both sides of the text block, so that the glued strips are parallel to the spine, and the folded edges line up with one end of the spine.
+
+At this point, I put that into the book press, hoping for the best. Predictably, I glued the text block to the book press, both top and bottom sides.
+
+I managed to get them separated using a utility knife blade, which damaged the end pages slightly, and left residue on the book press. I hope to come up with something better while building notebook #4.
 
 
 ## Strengthen the text block
-
-1. Glue the end pages to the text block.
-   1. Apply about 10mm of PVA glue on one side of each end page, along the folded edge.
-   2. Press the end page onto the text block, so the edge next to the glued part lines up with the spine.
-2. Clamp notebook in the book press.
-3. Let the glue dry for 30 minutes.
 
 Next, during the build for notebook #2, I glued a piece of thick paper to the spine, and the back end of the sides of the text block. This didn't work out so well, so I don't want to document it here. I'll try something for the build of notebook #3 and will document it, if it works.
 
