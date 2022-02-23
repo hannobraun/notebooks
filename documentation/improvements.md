@@ -4,6 +4,8 @@
 
 - Try folding complete signatures in one go
   Collect 4 sheets, fold them together.
+- Cut text block to size before adding the cover
+  Otherwise the bookmark gets in the way.
 - Use regular paper in the right size
   That would save some preparation work.
 - Use thick paper in the right size and thickness
