@@ -85,9 +85,21 @@ At this point, I put that into the book press, hoping for the best. Predictably,
 I managed to get them separated using a utility knife blade, which damaged the end pages slightly, and left residue on the book press. I hope to come up with something better while building notebook #4.
 
 
-## Strengthen the text block
+## Strengthen the spine
 
-Next, during the build for notebook #2, I glued a piece of thick paper to the spine, and the back end of the sides of the text block. This didn't work out so well, so I don't want to document it here. I'll try something for the build of notebook #3 and will document it, if it works.
+1. Cut off a piece of mull from the roll; length should be the length of the spine minus 20mm.
+2. Fold the piece of mull in half along the long axis, to mark its middle.
+3. Apply glue to the spine of the text block.
+
+It's probably a good idea to apply glue only where the mull will go, so no glue on each end of the spine, for 10mm to the edge. Then the bookmark can be glued onto the spine, without being glued right up to the edge of the spine. Meaning the text block can be cut to size later, without damaging the bookmark.
+
+I didn't do it like that for notebook #3, and it caused all kinds of problems.
+
+4. Place the piece of mull on the spine, so the middle of the spine and the middle of the mull line up along their long axes.
+5. Apply more glue on the outside of the mull. Use the brush to push the mull onto the spine, so there are no creases.
+6. Once the mull is fixed to the spine, glue the rest of the mull to the outside of the text block. Flatten it with the brush to prevent creases.
+7. Apply enough glue, so the mesh structure of the mull is almost not visible any more.
+8. Let it dry for 30 minutes.
 
 
 ## Add the cover
