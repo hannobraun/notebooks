@@ -4,8 +4,6 @@
 
 - Try folding complete signatures in one go
   Collect 4 sheets, fold them together.
-- Fold against some barrier
-  To fix the ends of the sheets, keeping them from moving against each other.
 - Use regular paper in the right size
   That would save some preparation work.
 - Use thick paper in the right size and thickness
