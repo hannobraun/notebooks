@@ -6,6 +6,8 @@
   Collect 4 sheets, fold them together.
 - Cut text block to size before adding the cover
   Otherwise the bookmark gets in the way.
+- Try preparing the cover before glueing
+  https://www.youtube.com/watch?v=zemN8_-q2zs
 - Use regular paper in the right size
   That would save some preparation work.
 - Use thick paper in the right size and thickness
