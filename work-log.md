@@ -7,7 +7,9 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 ## 2022-02-26
 
-Finished notebook #3.
+Finished notebook #3. This is the first one with a bookmark.
+
+![Notebook #3, finished](work-log/2022-02-26.jpg)
 
 
 ## 2022-02-13
