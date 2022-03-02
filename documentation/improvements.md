@@ -10,6 +10,7 @@
   https://www.youtube.com/watch?v=zemN8_-q2zs
 - Use regular paper in the right size
   That would save some preparation work.
+  https://www.amazon.de/Druckerpapier-Gesch%C3%A4ftspapier-Laserpapier-Universalpapier-Werbebl%C3%A4tter/dp/B08TTF5LPV/
 - Use thick paper in the right size and thickness
   Again, would save some preparation work.
 - Find better way to cut off material
