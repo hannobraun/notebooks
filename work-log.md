@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Started working on notebook #4. Tried some process improvements to create the signatures. Worked out well.
 
+![Stack of signatures for notebook #4](work-log/2022-03-01.jpg)
+
 
 ## 2022-02-26
 
