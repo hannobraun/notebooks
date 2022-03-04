@@ -14,25 +14,27 @@ Please refer to the documents about tools, materials, and techniques, which thes
 
 This results in 48 roughly A5-sized sheets of paper.
 
-5. Fold all sheets of paper. Collect the folded sheets into stacks of 4.
-6. Nest the 4 folded sheets of each stack into each other, to create signature.
+5. Fold the sheets of paper
+   1. Take a stack of 4 sheets of paper.
+   2. Fold the 4 sheets of paper together .
+   3. Repeat until all sheets of paper are folded.
 
 You now have the signatures that will be sewn together to make up the text block. Before we can sew them, we need to create holes to sew through.
 
-7. Using a ruler, find the middle of a the folded edge of a signature.
-8. Mark that middle with the pencil.
-9. From that middle mark, make a mark ever 2cm along the folded edge.
+6. Using a ruler, find the middle of a the folded edge of a signature.
+7. Mark that middle with the pencil.
+8. From that middle mark, make a mark ever 2cm along the folded edge.
 
 You should now have one signature that has marks ever 2cm along the folded edge, with those marks centered on the middle.
 
-10. Stack up all signatures, with the marked one up top.
-11. Align the folded edges of all the signatures as best as possible.
-12. Keeping them aligned, put a ruler against each mark you made.
-13. Use the ruler and pencil to transfer the marks to the other signatures.
+9. Stack up all signatures, with the marked one up top.
+10. Align the folded edges of all the signatures as best as possible.
+11. Keeping them aligned, put a ruler against each mark you made.
+12. Use the ruler and pencil to transfer the marks to the other signatures.
 
 Now all signatures should have the same marks as the original one.
 
-14. Make holes for sewing into all signatures
+13. Make holes for sewing into all signatures
     1. Lay down the signature flat, with the marks upwards, so you can see them.
     2. Using the awl, puncture all the marks.
     3. Enlarge all those small holes, by sticking the awl through them.
