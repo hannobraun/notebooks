@@ -62,26 +62,27 @@ It doesn't need to be perfect. Just do the best you can, and make sure no signat
 ## Create the end pages
 
 1. Fold a sheet of thick paper along the middle.
-2. Cut off the folded end.
+2. Unfold it again.
+3. Use the aluminium block as a ruler to cut along the fold line.
 
 This should result in two A5-ish-sized sheets of thick paper.
 
-3. Fold the sheets of paper along the middle again.
-4. Glue the folded sheets, to create sheets with double the thickness.
+4. Fold the sheets of paper along the middle again.
+5. Glue the folded sheets, to create sheets with double the thickness.
    1. Apply PVA glue to half of the inner side of the folded sheets.
    2. Close it again and press it together.
    3. Let it dry for 15 minutes.
 
 This results in two thick A6-ish-sized sheets of paper that can be used as end pages.
 
-5. Lay the two end pages on top of each other, so that the folded edges point in the right direction, and a 5mm strip along the folded edge of the bottom end page sticks out from the top one.
-6. Apply glue to that 5mm strip of the bottom end page.
-7. Switch their positions (put the bottom on on top now). Again, make it so that a 5mm strip of the (new) lower end page sticks out from below the (new top) one.
-8. Apply glue to that 5mm strip too.
+6. Lay the two end pages on top of each other, so that the folded edges point in the right direction, and a 5mm strip along the folded edge of the bottom end page sticks out from the top one.
+7. Apply glue to that 5mm strip of the bottom end page.
+8. Switch their positions (put the bottom on on top now). Again, make it so that a 5mm strip of the (new) lower end page sticks out from below the (new top) one.
+9. Apply glue to that 5mm strip too.
 
 If you've done this correctly, you've applied glue to a 5mm strip along the folded edge of both end pages, without accidentally applying it anywhere else on the end pages.
 
-9. Glue the end pages onto both sides of the text block, so that the glued strips are parallel to the spine, and the folded edges line up with one end of the spine.
+10. Glue the end pages onto both sides of the text block, so that the glued strips are parallel to the spine, and the folded edges line up with one end of the spine.
 
 At this point, I put that into the book press, hoping for the best. Predictably, I glued the text block to the book press, both top and bottom sides.
 
