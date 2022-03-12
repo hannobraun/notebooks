@@ -7,7 +7,7 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 ## 2022-03-11
 
-Continue working on notebook #4. Glued on the end pages.
+Continued working on notebook #4. Glued on the end pages.
 
 
 ## 2022-03-10
