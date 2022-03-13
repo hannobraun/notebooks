@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Continued working on notebook #4. Glued on the bookmark and mull.
 
+![Notebook #4's text block with the mull glued on](work-log/2022-03-12.jpg)
+
 
 ## 2022-03-11
 
