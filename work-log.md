@@ -9,7 +9,7 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Continued working on notebook #4. Tried a new approach this time: Finishing the text block before adding the cover.
 
-![Notebook #4's text block, finished](work-log/2022-03-13.jpg)
+![Notebook #4; cover not yet cut to size](work-log/2022-03-13.jpg)
 
 
 ## 2022-03-12
