@@ -3,12 +3,14 @@ a5 = [148, 210];
 
 height = 40;
 
-gap      =  0.2;
-rim      = 10;
-material =  1;
+gap =  0.2;
+rim = 10;
+
+material_xy =  1;
+material_z  =  1;
 
 
-function inner_to_walls(inner) = inner + 2*material;
+function inner_to_walls(inner) = inner + 2*material_xy;
 function inner_to_outer(inner) = inner_to_walls(inner) + 2*rim;
 
 
@@ -32,7 +34,7 @@ module model() {
     difference() {
         union() {
             base();
-            translate([0, 0, height - material]) base();
+            translate([0, 0, height - material_z]) base();
 
             walls();
 
@@ -45,7 +47,7 @@ module model() {
 }
 
 module base() {
-    linear_extrude(material)
+    linear_extrude(material_z)
     square([outer_x, outer_y]);
 }
 
@@ -55,16 +57,16 @@ module walls() {
     union() {
         left_right();
         front_back();
-        translate([0, inner_y + material]) left_right();
-        translate([inner_x + material, 0]) front_back();
+        translate([0, inner_y + material_xy]) left_right();
+        translate([inner_x + material_xy, 0]) front_back();
     }
 
     module left_right() {
-        square([walls_x, material]);
+        square([walls_x, material_xy]);
     }
 
     module front_back() {
-        square([material, walls_y]);
+        square([material_xy, walls_y]);
     }
 }
 
@@ -86,7 +88,7 @@ module ribs() {
 
     module left_right() {
         linear_extrude(height)
-        square([rim, material]);
+        square([rim, material_xy]);
     }
 
     module front_back_all() {
@@ -99,7 +101,7 @@ module ribs() {
 
     module front_back() {
         linear_extrude(height)
-        square([material, rim]);
+        square([material_xy, rim]);
     }
 
     module corner_all() {
@@ -111,13 +113,13 @@ module ribs() {
 
     module corner_rib() {
         linear_extrude(height)
-        translate([rim / 4, -material / 2])
-        square([2*rim, material]);
+        translate([rim / 4, -material_xy / 2])
+        square([2*rim, material_xy]);
     }
 }
 
 module inner() {
-    offset = rim + material;
+    offset = rim + material_xy;
 
     linear_extrude(height)
     translate([offset, offset])
