@@ -3,6 +3,7 @@ a5 = [148, 210];
 
 height = 40;
 
+gap      =  0.2;
 rim      = 10;
 material =  1;
 
@@ -11,8 +12,8 @@ function inner_to_walls(inner) = inner + 2*material;
 function inner_to_outer(inner) = inner_to_walls(inner) + 2*rim;
 
 
-inner_x = a5[0];
-inner_y = a5[1];
+inner_x = a5[0] + gap;
+inner_y = a5[1] + gap;
 
 outer_x = inner_to_outer(inner_x);
 outer_y = inner_to_outer(inner_y);
