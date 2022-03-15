@@ -1,3 +1,11 @@
+// Intended print settings
+layer_height    = 0.25;
+extrusion_width = 0.45;
+
+// Material strength
+material_xy = extrusion_width * 2;
+material_z  = layer_height * 4;
+
 // Dimensions of A5 (ISO 216) paper
 a5 = [148, 210];
 
@@ -5,9 +13,6 @@ height = 40;
 
 gap =  0.2;
 rim = 10;
-
-material_xy =  1;
-material_z  =  1;
 
 
 function inner_to_walls(inner) = inner + 2*material_xy;
