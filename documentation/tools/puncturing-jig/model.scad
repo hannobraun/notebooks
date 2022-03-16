@@ -32,6 +32,11 @@ walls_y = inner_to_walls(inner_y);
 $fn = 60;
 
 
+// TASK: The model is too big to print. Only model half of it, with an
+//       interface in the middle, so the two halves can be glued together.
+// TASK: Add horizontal ribs.
+
+
 model();
 
 
