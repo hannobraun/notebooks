@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Finished notebook #4.
 
+![Notebook #4, finished](work-log/2022-03-18.jpg)
+
 
 ## 2022-03-13
 
