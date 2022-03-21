@@ -21,7 +21,7 @@
 ## Product
 
 - Define minimum length of bookmark
-  It's needs to be long enough, that it sticks out some distance between the pages, even if placed diagonally over the page. Otherwise, it become slightly tedious to place it on a different page.
+  It's needs to be long enough, that it sticks out some distance between the pages, even if placed diagonally over the page. Otherwise, it becomes slightly tedious to place it on a different page.
 - Make sure spine is straight, and there's not a large gap to the cover
 - Add flexible band that can keep the notebook closed
   https://www.schmedt.de/gummilitze-flach-umsponnen-mit-einem-farbigen-faden/51865002
