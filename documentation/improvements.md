@@ -22,6 +22,9 @@
 
 - Define minimum length of bookmark
   It's needs to be long enough, that it sticks out some distance between the pages, even if placed diagonally over the page. Otherwise, it becomes slightly tedious to place it on a different page.
+- Find a way to make the cover and end page more bendable
+  With the recent models, the first pages have a harder time opening that previously. I think the problem is, that the cover is more or less directly connected to the text block, via the end page, where that is glued to the text block.
+  Idea: Have double end pages, with the outer end page glued to the cover, the inner glued to the text block along the 5mm strip, as currently. The fold of the double end page provides a joint that prevents the cover from applying force to the text block, when the cover is folded out.
 - Make sure spine is straight, and there's not a large gap to the cover
 - Add flexible band that can keep the notebook closed
   https://www.schmedt.de/gummilitze-flach-umsponnen-mit-einem-farbigen-faden/51865002
