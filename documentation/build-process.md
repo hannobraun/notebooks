@@ -121,47 +121,44 @@ Again, use the brush to prevent creases in the mull.
 13. Let it dry for 30 minutes.
 
 
+## Finish the text block
+
+1. Use sandpaper to sand short sides of text block, neighboring the spine.
+
+It doesn't need to be perfect, but any crevices should be evened out. Use combination from the spine to figure out how the side should oriented, if necessary.
+
+2. Use sandpaper to sand long side of the text block, opposite the spine.
+
+Use combination square from one of the side to figure out orientation, if necessary.
+
+3. Round all corners with the corner punch
+
+
 ## Add the cover
 
 1. Cut out a rectangular piece of cork.
 
 It should be big enough, that it will protrude everywhere after you glued it to the text block.
 
-2. Apply PVA glue to one side of the text block.
+2. Put a sheet of parchment paper between one end page and rest of text block.
+
+The sheet should be big enough to stick out on all sides under the end page.
+
+3. Apply PVA glue to one side of the text block.
 3. Glue cover onto that side.
 4. Clamp in book press, let it dry for 30 minutes.
-5. Apply PVA glue to spine and other side of the text block.
-6. Glue on rest of cover.
+5. Apply PVA glue to the inside of the cover, where it will touch the spine.
+6. Put parchment paper under the other end page.
+7. Apply PVA glue to that side of the text block.
+8. Press cover onto text block, starting at the already glued side.
 
-Pull the side of the cover that you're now glueing on towards the front of the text block, to make sure there is only a minimal gap between the spine of the text block and the cover there.
+By starting at that side, and moving over the spine, towards the free end of the cover, you minimize the gap between cover and spine.
 
-This doesn't work totally reliably to reduce the gap. I'm working on ideas for improvements.
-
-7. Clamp in book press, let it dry for 30 minutes.
+9. Clamp in book press, let it dry for 30 minutes.
 
 
-## Finish the notebook
+## Cut cover to size
 
-1. Use combination square and knife to cut off a few millimeters of material on the left and right side of the notebook.
-
-The goal here is to remove the chaos of protruding and recessed signatures, and the protruding cork cover. The result will invariably still be crooked, but don't worry.
-
-2. Use coarse sandpaper (P40) to sand the walls straight.
-
-Just do it by eye. If it looks straight, it is straight. If it doesn't look straight, use the combination square to check what you need to remove, using the spine as reference.
-
-3. Cut and sand the front side in the same manner.
-
-Use one of the newly sanded sides as reference for the combination square.
-
-4. Round corners of all pages using the corner punch.
-
-Doing three pages at a time is a reasonable maximum.
-
-5. Round corners of the cover.
-
-They're too thick for the corner punch. Use a knife, and cut along the previously rounded paper corners. If that doesn't result in a sufficiently round appearance, carefully use the sandpaper to round it off.
-
-6. Sign the notebook on one of the end pages
+Now the cover needs to be cut to size, so it doesn't stick out of the text block. This didn't work out so well for notebook #4, so I'll keep experimenting with techniques.
 
 This is it, done!
