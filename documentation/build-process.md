@@ -89,21 +89,32 @@ The glued strips should be parallel to the spine, and the edges on the side shou
 Do not use the book press for this, or you'll glue the text block to the book press.
 
 
-## Strengthen the spine
+## Strengthen the spine and add the bookmark
 
-1. Cut off a piece of mull from the roll; length should be the length of the spine minus 20mm.
-2. Fold the piece of mull in half along the long axis, to mark its middle.
-3. Apply glue to the spine of the text block.
+1. Cut off ~240mm of bookmark ribbon.
+2. Cut off ~135mm of mull.
+3. Fold the piece of mull in half along the long axis, to mark its middle.
 
-It's probably a good idea to apply glue only where the mull will go, so no glue on each end of the spine, for 10mm to the edge. Then the bookmark can be glued onto the spine, without being glued right up to the edge of the spine. Meaning the text block can be cut to size later, without damaging the bookmark.
+The goal is to place the mull so that is is centered on top of the spine, along both axes.
 
-I didn't do it like that for notebook #3, and it caused all kinds of problems.
+4. Apply glue to the spine of the text block, where the mull will go.
+5. Place bookmark ribbon on the spine, coming from a shorter edge.
 
-4. Place the piece of mull on the spine, so the middle of the spine and the middle of the mull line up along their long axes.
-5. Apply more glue on the outside of the mull. Use the brush to push the mull onto the spine, so there are no creases.
-6. Once the mull is fixed to the spine, glue the rest of the mull to the outside of the text block. Flatten it with the brush to prevent creases.
-7. Apply enough glue, so the mesh structure of the mull is almost not visible any more.
-8. Let it dry for 30 minutes.
+~10mm of the bookmark ribbon should stick into the glued area.
+
+6. Use the brush to press the bookmark ribbon into the glue.
+7. Place the mull on the spine, so it is centered along both axes.
+8. Apply glue to the mull, where it touches the spine.
+
+Use the brush to push the mull onto the spine, so there are no creases.
+
+9. Glue one flap of the mull onto the respective end page.
+
+Again, use the brush to prevent creases in the mull.
+
+10. Repeat with the other flap.
+11. Keep applying glue, until the mesh structure is almost not visible any more.
+12. Let it dry for 30 minutes.
 
 
 ## Add the cover
