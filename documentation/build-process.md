@@ -97,24 +97,28 @@ Do not use the book press for this, or you'll glue the text block to the book pr
 
 The goal is to place the mull so that is is centered on top of the spine, along both axes.
 
-4. Apply glue to the spine of the text block, where the mull will go.
-5. Place bookmark ribbon on the spine, coming from a shorter edge.
+4. Put text block into the book press.
+
+It should stick out far enough, so the mull can be glued on.
+
+5. Apply glue to the spine of the text block, where the mull will go.
+6. Place bookmark ribbon on the spine, coming from a shorter edge.
 
 ~10mm of the bookmark ribbon should stick into the glued area.
 
-6. Use the brush to press the bookmark ribbon into the glue.
-7. Place the mull on the spine, so it is centered along both axes.
-8. Apply glue to the mull, where it touches the spine.
+7. Use the brush to press the bookmark ribbon into the glue.
+8. Place the mull on the spine, so it is centered along both axes.
+9. Apply glue to the mull, where it touches the spine.
 
 Use the brush to push the mull onto the spine, so there are no creases.
 
-9. Glue one flap of the mull onto the respective end page.
+10. Glue one flap of the mull onto the respective end page.
 
 Again, use the brush to prevent creases in the mull.
 
-10. Repeat with the other flap.
-11. Keep applying glue, until the mesh structure is almost not visible any more.
-12. Let it dry for 30 minutes.
+11. Repeat with the other flap.
+12. Keep applying glue, until the mesh structure is almost not visible any more.
+13. Let it dry for 30 minutes.
 
 
 ## Add the cover
