@@ -5,7 +5,9 @@ These are specific techniques that are required in the build process. They can b
 The build process documentation refers to them here, to keep that documentation reasonable clear.
 
 
-## Folding paper
+## Paper preparation
+
+### Folding
 
 1. Push a shorter edge of the paper against the straight edge of the aluminium block.
 2. Fold over the opposite edge, also push it against the straight edge.
