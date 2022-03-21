@@ -17,7 +17,7 @@ I've bought these specifically for making notebooks. I've linked the source I bo
 
 ## Other
 
-These are just standard tools that I already had in my workshop.
+These are just standard tools that I already had in my workshop, or found around the apartment.
 
 - A knife
 - A ruler
@@ -26,3 +26,4 @@ These are just standard tools that I already had in my workshop.
 - Coarse sandpaper (P40)
 - An aluminium block
   With a straight edge, heave enough to not push it around when you fold paper against it.
+- Parchment paper
