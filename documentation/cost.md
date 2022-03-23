@@ -14,7 +14,11 @@ Total: 2.65€ (excluding VAT and material shipping costs)
 
 ## Shipping
 
-- to Germany: 2.70€ (Deutsche Post, Großbrief 500g + Prio; VAT not applicable)
+- Envelope: 10 envelopes = 5.29€ => 1 envelope = ~0.53€
+- Postage:
+  - to Germany: 2.70€ (Deutsche Post, Großbrief 500g + Prio; VAT not applicable)
+
+Total: 3.23€
 
 
 ## Tools
