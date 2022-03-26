@@ -14,6 +14,10 @@ height = 40;
 gap =  0.2;
 rim = 10;
 
+inner_size = [a5.x, a5.y / 2] + [gap, gap / 2];
+outer_size = inner_size + [material_xy * 2, material_xy];
+base_size  = outer_size + [rim * 2, rim];
+
 
 // function inner_to_walls(inner) = inner + 2*material_xy;
 // function inner_to_outer(inner) = inner_to_walls(inner) + 2*rim;
