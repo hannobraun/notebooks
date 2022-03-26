@@ -21,7 +21,7 @@ base_size  = outer_size + [rim * 2, rim];
 
 difference() {
     union() {
-        bases();
+        ribs();
         walls();
     }
 
@@ -29,7 +29,7 @@ difference() {
 }
 
 
-module bases() {
+module ribs() {
     union() {
         base(0);
         base(1);
