@@ -31,11 +31,11 @@ difference() {
 
 module ribs() {
     union() {
-        base(0);
-        base(1);
+        horizontal(0);
+        horizontal(1);
     }
 
-    module base(location) {
+    module horizontal(location) {
         translate([0, 0, height * location])
         linear_extrude(material_z)
         difference() {
