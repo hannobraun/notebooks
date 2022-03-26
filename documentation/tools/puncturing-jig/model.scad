@@ -27,14 +27,18 @@ module base() {
     difference() {
         square(base_size);
 
-        corner();
+        corner([0, 0]);
+        corner([1, 0]);
     }
 
-    module corner() {
+    module corner(position) {
+        translate([base_size.x * position.x, base_size.y * position.y])
         difference() {
             square([rim, rim] * 2, center = true);
 
-            translate([rim, rim])
+            circle_offset = [rim, -rim];
+
+            translate([circle_offset[position.x], circle_offset[position.y]])
             circle(r = rim);
         }
     }
