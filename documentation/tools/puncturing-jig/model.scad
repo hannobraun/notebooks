@@ -19,6 +19,28 @@ outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
 
+base();
+
+
+module base() {
+    linear_extrude(material_z)
+    difference() {
+        square(base_size);
+
+        corner();
+    }
+
+    module corner() {
+        difference() {
+            square([rim, rim] * 2, center = true);
+
+            translate([rim, rim])
+            circle(r = rim);
+        }
+    }
+}
+
+
 // function inner_to_walls(inner) = inner + 2*material_xy;
 // function inner_to_outer(inner) = inner_to_walls(inner) + 2*rim;
 
