@@ -36,7 +36,7 @@ module bases() {
     }
 
     module base(location) {
-        translate([0, 0, (material_z + height) * location])
+        translate([0, 0, height * location])
         linear_extrude(material_z)
         difference() {
             square(base_size);
@@ -63,16 +63,14 @@ module bases() {
 }
 
 module walls() {
-    translate([rim, rim, material_z])
+    translate([rim, rim, 0])
     linear_extrude(height)
     square(outer_size);
 }
 
 module inner_space() {
-    total_height = height + material_z * 2;
-
-    translate([rim + material_xy, rim + material_xy, total_height / 2])
-    linear_extrude(total_height * 2, center = true)
+    translate([rim + material_xy, rim + material_xy, height / 2])
+    linear_extrude(height * 2, center = true)
     square([inner_size.x, inner_size.y * 2]);
 }
 
