@@ -19,6 +19,8 @@ outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
 
+// TASK: Add vertical ribs.
+// TASK: Add connector.
 difference() {
     union() {
         ribs();
