@@ -19,27 +19,34 @@ outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
 
-base();
+bases();
 
 
-module base() {
-    linear_extrude(material_z)
-    difference() {
-        square(base_size);
+module bases() {
+    base();
 
-        corner([0, 0]);
-        corner([1, 0]);
-    }
-
-    module corner(position) {
-        translate([base_size.x * position.x, base_size.y * position.y])
+    module base() {
+        linear_extrude(material_z)
         difference() {
-            square([rim, rim] * 2, center = true);
+            square(base_size);
 
-            circle_offset = [rim, -rim];
+            corner([0, 0]);
+            corner([1, 0]);
+        }
 
-            translate([circle_offset[position.x], circle_offset[position.y]])
-            circle(r = rim);
+        module corner(position) {
+            translate([base_size.x * position.x, base_size.y * position.y])
+            difference() {
+                square([rim, rim] * 2, center = true);
+
+                circle_offset = [rim, -rim];
+
+                translate([
+                    circle_offset[position.x],
+                    circle_offset[position.y]
+                ])
+                circle(r = rim);
+            }
         }
     }
 }
