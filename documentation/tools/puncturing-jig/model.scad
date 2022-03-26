@@ -36,8 +36,8 @@ module ribs() {
     }
 
     module horizontal(location) {
-        translate([0, 0, height * location])
-        linear_extrude(material_z)
+        translate([0, 0, material_z / 2 + height * location])
+        linear_extrude(material_z, center = true)
         difference() {
             square(base_size);
 
