@@ -19,7 +19,10 @@ outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
 
-bases();
+union() {
+    bases();
+    walls();
+}
 
 
 module bases() {
@@ -53,6 +56,12 @@ module bases() {
             }
         }
     }
+}
+
+module walls() {
+    translate([rim, rim, material_z])
+    linear_extrude(height)
+    square(outer_size);
 }
 
 
