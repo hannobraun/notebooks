@@ -23,9 +23,13 @@ bases();
 
 
 module bases() {
-    base();
+    union() {
+        base(0);
+        base(1);
+    }
 
-    module base() {
+    module base(location) {
+        translate([0, 0, (material_z + height) * location])
         linear_extrude(material_z)
         difference() {
             square(base_size);
