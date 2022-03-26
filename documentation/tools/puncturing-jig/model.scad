@@ -31,8 +31,9 @@ difference() {
 
 module ribs() {
     union() {
-        horizontal(0);
-        horizontal(1);
+        horizontal(0.0);
+        horizontal(0.5);
+        horizontal(1.0);
     }
 
     module horizontal(location) {
