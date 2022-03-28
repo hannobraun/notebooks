@@ -38,7 +38,11 @@ module ribs() {
 
         // TASK: Add vertical ribs.
 
-        vertical(0.5);
+        num_vertical = 1;
+        for (i = [1:num_vertical]) {
+            location = i / (num_vertical + 1);
+            vertical(location);
+        }
     }
 
     module horizontal(location) {
