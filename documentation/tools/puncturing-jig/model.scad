@@ -74,7 +74,7 @@ module ribs() {
     }
 
     module vertical(location) {
-        translate([base_size.x * location - material_xy / 2, 0, 0])
+        translate([rim + outer_size.x * location - material_xy / 2, 0, 0])
         cube([material_xy, rim, height]);
     }
 }
