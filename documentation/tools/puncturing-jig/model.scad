@@ -38,8 +38,7 @@ module ribs() {
 
         // TASK: Add vertical ribs.
 
-        translate([base_size.x / 2 - material_xy / 2, 0, 0])
-        cube([material_xy, rim, height]);
+        vertical();
     }
 
     module horizontal(location) {
@@ -68,6 +67,11 @@ module ribs() {
                 circle(r = rim);
             }
         }
+    }
+
+    module vertical() {
+        translate([base_size.x / 2 - material_xy / 2, 0, 0])
+        cube([material_xy, rim, height]);
     }
 }
 
