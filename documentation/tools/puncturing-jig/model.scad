@@ -50,7 +50,7 @@ module ribs() {
             vertical_side(location);
         }
 
-        // TASK: Add rest of vertical ribs.
+        // TASK: Add corner ribs.
     }
 
     module horizontal(location) {
