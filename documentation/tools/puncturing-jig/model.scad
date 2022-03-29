@@ -36,9 +36,9 @@ module ribs() {
         horizontal(0.5);
         horizontal(1.0);
 
-        num_vertical = round(inner_size.x / 20 - 1);
-        for (i = [1:num_vertical]) {
-            location = i / (num_vertical + 1);
+        num_front = round(inner_size.x / 20 - 1);
+        for (i = [1:num_front]) {
+            location = i / (num_front + 1);
             front(location);
         }
 
