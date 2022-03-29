@@ -42,6 +42,9 @@ module ribs() {
             front(location);
         }
 
+        translate([0, rim + 20, 0])
+        cube([base_size.x, material_xy, height]);
+
         // TASK: Add rest of vertical ribs.
     }
 
