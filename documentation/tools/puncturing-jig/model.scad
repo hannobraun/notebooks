@@ -44,7 +44,11 @@ module ribs() {
             vertical_front(location);
         }
 
-        vertical_side(0.1);
+        num_side = round((outer_size.y * 2 / rib_distance - 1) / 2) * 2;
+        for (i = [1:num_side / 2]) {
+            location = i / (num_side + 1);
+            vertical_side(location);
+        }
 
         // TASK: Add rest of vertical ribs.
     }
