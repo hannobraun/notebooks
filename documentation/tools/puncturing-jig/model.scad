@@ -51,6 +51,7 @@ module ribs() {
         }
 
         vertical_corner(location = 0.0, angle = -135);
+        vertical_corner(location = 1.0, angle =  -45);
 
         // TASK: Add corner ribs.
     }
