@@ -50,9 +50,7 @@ module ribs() {
             vertical_side(location);
         }
 
-        translate([rim, rim, 0])
-        rotate([0, 0, -135])
-        cube([rim, material_xy, height]);
+        vertical_corner();
 
         // TASK: Add corner ribs.
     }
@@ -93,6 +91,12 @@ module ribs() {
     module vertical_side(location) {
         translate([0, rim + outer_size.y * 2 * location, 0])
         cube([base_size.x, material_xy, height]);
+    }
+
+    module vertical_corner() {
+        translate([rim, rim, 0])
+        rotate([0, 0, -135])
+        cube([rim, material_xy, height]);
     }
 }
 
