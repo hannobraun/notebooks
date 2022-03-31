@@ -19,7 +19,7 @@ outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
 
-// TASK: Add connector.
+connector()
 difference() {
     union() {
         ribs();
@@ -108,4 +108,9 @@ module corner(position) {
         ])
         circle(r = rim);
     }
+}
+
+module connector() {
+    // TASK: Add connector.
+    children();
 }
