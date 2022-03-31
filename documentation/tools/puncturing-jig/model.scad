@@ -44,8 +44,8 @@ module ribs() {
             vertical_front(location);
         }
 
-        num_side = round((outer_size.y * 2 / rib_distance - 1) / 2) * 2;
-        for (i = [1:num_side / 2]) {
+        num_side = round((outer_size.y / rib_distance - 1));
+        for (i = [1:num_side + 1]) {
             location = i / (num_side + 1);
             vertical_side(location);
         }
@@ -88,7 +88,7 @@ module ribs() {
     }
 
     module vertical_side(location) {
-        translate([0, rim + outer_size.y * 2 * location, 0])
+        translate([0, rim + outer_size.y * location - material_xy / 2, 0])
         cube([base_size.x, material_xy, height]);
     }
 
