@@ -27,6 +27,9 @@ difference() {
     }
 
     inner_space();
+
+    corner([0, 0]);
+    corner([1, 0]);
 }
 
 
@@ -59,27 +62,7 @@ module ribs() {
 
         translate([0, 0, offset + height * location])
         linear_extrude(material_z, center = true)
-        difference() {
-            square(base_size);
-
-            corner([0, 0]);
-            corner([1, 0]);
-        }
-
-        module corner(position) {
-            translate([base_size.x * position.x, base_size.y * position.y])
-            difference() {
-                square([rim, rim] * 2, center = true);
-
-                circle_offset = [rim, -rim];
-
-                translate([
-                    circle_offset[position.x],
-                    circle_offset[position.y]
-                ])
-                circle(r = rim);
-            }
-        }
+        square(base_size);
     }
 
     module vertical_front(location) {
@@ -109,4 +92,20 @@ module inner_space() {
     translate([rim + material_xy, rim + material_xy, height / 2])
     linear_extrude(height * 2, center = true)
     square([inner_size.x, inner_size.y * 2]);
+}
+
+module corner(position) {
+    translate([base_size.x * position.x, base_size.y * position.y, height / 2])
+    linear_extrude(height * 2, center = true)
+    difference() {
+        square([rim, rim] * 2, center = true);
+
+        circle_offset = [rim, -rim];
+
+        translate([
+            circle_offset[position.x],
+            circle_offset[position.y]
+        ])
+        circle(r = rim);
+    }
 }
