@@ -14,6 +14,8 @@ height = 40;
 gap =  0.2;
 rim = 10;
 
+rib_distance = 20;
+
 inner_size = [a5.x, a5.y / 2] + [gap, gap / 2];
 outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
@@ -108,6 +110,21 @@ module corner(position) {
 }
 
 module connector() {
-    // TASK: Add connector.
-    children();
+    difference() {
+        children();
+
+        translate([-base_size.x / 2, base_size.y, height / 2])
+        linear_extrude(height * 2, center = true)
+        square(base_size * 2);
+
+        for (i = [0, 1]) {
+            translate([
+                rim + material_xy / 2 + (inner_size.x + material_xy) * i,
+                base_size.y - rib_distance_side + material_xy / 2,
+                height / 2,
+            ])
+            linear_extrude(height * 2, center = true)
+            square([inner_size.x / 2, rib_distance_side * 2]);
+        }
+    }
 }
