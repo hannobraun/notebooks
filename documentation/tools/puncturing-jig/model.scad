@@ -23,6 +23,9 @@ rib_distance_target = 20;
 num_ribs_front = round(outer_size.x / rib_distance_target - 1);
 num_ribs_side  = round(outer_size.y / rib_distance_target - 1);
 
+rib_distance_front = outer_size.x / (num_ribs_front + 1);
+rib_distance_side  = outer_size.y / (num_ribs_side  + 1);
+
 
 connector()
 difference() {
@@ -45,13 +48,11 @@ module ribs() {
         horizontal(1.0);
 
         for (i = [1:num_ribs_front]) {
-            location = i / (num_ribs_front + 1);
-            vertical_front(location);
+            vertical_front(i);
         }
 
         for (i = [1:num_ribs_side + 1]) {
-            location = i / (num_ribs_side + 1);
-            vertical_side(location);
+            vertical_side(i);
         }
 
         vertical_corner(location = 0.0, angle =  45);
@@ -66,13 +67,13 @@ module ribs() {
         square(base_size);
     }
 
-    module vertical_front(location) {
-        translate([rim + outer_size.x * location - material_xy / 2, 0, 0])
+    module vertical_front(i) {
+        translate([rim + rib_distance_front * i - material_xy / 2, 0, 0])
         cube([material_xy, rim, height]);
     }
 
-    module vertical_side(location) {
-        translate([0, rim + outer_size.y * location - material_xy / 2, 0])
+    module vertical_side(i) {
+        translate([0, rim + rib_distance_side * i - material_xy / 2, 0])
         cube([base_size.x, material_xy, height]);
     }
 
