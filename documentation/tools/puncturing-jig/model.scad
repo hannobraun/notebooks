@@ -20,6 +20,8 @@ base_size  = outer_size + [rim * 2, rim];
 
 rib_distance_target = 20;
 
+num_ribs_side = round((outer_size.y / rib_distance_target - 1));
+
 
 connector()
 difference() {
@@ -47,7 +49,6 @@ module ribs() {
             vertical_front(location);
         }
 
-        num_ribs_side = round((outer_size.y / rib_distance_target - 1));
         for (i = [1:num_ribs_side + 1]) {
             location = i / (num_ribs_side + 1);
             vertical_side(location);
