@@ -53,8 +53,8 @@ module ribs() {
             vertical_side(location);
         }
 
-        vertical_corner(location = 0.0, angle = -135);
-        vertical_corner(location = 1.0, angle =  -45);
+        vertical_corner(location = 0.0, angle =  45);
+        vertical_corner(location = 1.0, angle = 135);
     }
 
     module horizontal(location) {
@@ -76,9 +76,10 @@ module ribs() {
     }
 
     module vertical_corner(location, angle) {
-        translate([rim + outer_size.x * location, rim, 0])
+        translate([base_size.x * location, 0, height / 2])
         rotate([0, 0, angle])
-        cube([rim, material_xy, height]);
+        translate([rim, 0, 0])
+        cube([rim * 2, material_xy, height], center = true);
     }
 }
 
