@@ -47,12 +47,16 @@ module ribs() {
         horizontal(0.5);
         horizontal(1.0);
 
+        // Vertical front ribs
         for (i = [1:num_ribs_front]) {
-            vertical_front(i);
+            translate([rim + rib_distance_front * i - material_xy / 2, 0, 0])
+            cube([material_xy, rim, height]);
         }
 
+        // Vertical side ribs
         for (i = [1:num_ribs_side + 1]) {
-            vertical_side(i);
+            translate([0, rim + rib_distance_side * i - material_xy / 2, 0])
+            cube([base_size.x, material_xy, height]);
         }
 
         vertical_corner(location = 0.0, angle =  45);
@@ -65,16 +69,6 @@ module ribs() {
         translate([0, 0, offset + height * location])
         linear_extrude(material_z, center = true)
         square(base_size);
-    }
-
-    module vertical_front(i) {
-        translate([rim + rib_distance_front * i - material_xy / 2, 0, 0])
-        cube([material_xy, rim, height]);
-    }
-
-    module vertical_side(i) {
-        translate([0, rim + rib_distance_side * i - material_xy / 2, 0])
-        cube([base_size.x, material_xy, height]);
     }
 
     module vertical_corner(location, angle) {
