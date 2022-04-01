@@ -18,6 +18,8 @@ inner_size = [a5.x, a5.y / 2] + [gap, gap / 2];
 outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
+rib_distance = 20;
+
 
 connector()
 difference() {
@@ -34,8 +36,6 @@ difference() {
 
 
 module ribs() {
-    rib_distance = 20;
-
     union() {
         horizontal(0.0);
         horizontal(0.5);
