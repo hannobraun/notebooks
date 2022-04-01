@@ -18,7 +18,7 @@ inner_size = [a5.x, a5.y / 2] + [gap, gap / 2];
 outer_size = inner_size + [material_xy * 2, material_xy];
 base_size  = outer_size + [rim * 2, rim];
 
-rib_distance = 20;
+rib_distance_target = 20;
 
 
 connector()
@@ -41,13 +41,13 @@ module ribs() {
         horizontal(0.5);
         horizontal(1.0);
 
-        num_front = round(outer_size.x / rib_distance - 1);
+        num_front = round(outer_size.x / rib_distance_target - 1);
         for (i = [1:num_front]) {
             location = i / (num_front + 1);
             vertical_front(location);
         }
 
-        num_side = round((outer_size.y / rib_distance - 1));
+        num_side = round((outer_size.y / rib_distance_target - 1));
         for (i = [1:num_side + 1]) {
             location = i / (num_side + 1);
             vertical_side(location);
