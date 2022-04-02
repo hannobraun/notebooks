@@ -4,6 +4,12 @@ I have a daily habit of working on side projects. These projects used to be all 
 
 As I move more into physical projects, this doesn't work as well. But I do really like that daily commit as a way to track my habit, and I've decided I want to keep it. Hence this work log. Whenever I do work on this project that otherwise wouldn't result in a commit to this repository, I document it here.
 
+
+## 2022-04-02
+
+Experimented with glueing PLA parts, which will be necessary for assembling the puncturing jig. Results: Acetone worked relatively well, hot glue and PVA glue didn't.
+
+
 ## 2022-03-24
 
 Shipped notebook #4.
