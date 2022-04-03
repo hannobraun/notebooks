@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 Experimented with glueing PLA parts, which will be necessary for assembling the puncturing jig. Results: Acetone worked relatively well, hot glue and PVA glue didn't.
 
+![Pairs of PLA parts glued together, on a workbench](work-log/2022-04-02.jpg)
+
 
 ## 2022-03-24
 
