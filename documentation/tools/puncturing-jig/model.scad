@@ -1,3 +1,4 @@
+use <inner.scad>
 use <outer.scad>
 
 
@@ -32,16 +33,20 @@ rib_distance_front = outer_size.x / (num_ribs_front + 1);
 rib_distance_side  = outer_size.y / (num_ribs_side  + 1);
 
 
-outer(
-    material_xy        = material_xy,
-    material_z         = material_z,
-    height             = height,
-    rim                = rim,
-    inner_size         = inner_size,
-    outer_size         = outer_size,
-    base_size          = base_size,
-    num_ribs_front     = num_ribs_front,
-    num_ribs_side      = num_ribs_side,
-    rib_distance_front = rib_distance_front,
-    rib_distance_side  = rib_distance_side
+// outer(
+//     material_xy        = material_xy,
+//     material_z         = material_z,
+//     height             = height,
+//     rim                = rim,
+//     inner_size         = inner_size,
+//     outer_size         = outer_size,
+//     base_size          = base_size,
+//     num_ribs_front     = num_ribs_front,
+//     num_ribs_side      = num_ribs_side,
+//     rib_distance_front = rib_distance_front,
+//     rib_distance_side  = rib_distance_side
+// );
+inner(
+    material_z = material_z,
+    inner_size = inner_size
 );
