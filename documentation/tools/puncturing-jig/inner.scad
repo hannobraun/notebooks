@@ -12,6 +12,9 @@ module inner(
     num_holes             = round(inner_size.x / hole_distance_nominal / 2) * 2;
     hole_distance_actual  = inner_size.x / num_holes;
 
+    // TASK: Split into modules.
+    // TASK: Add ribs.
+    // TASK: Extend holes upwards, to guide awl.
     difference() {
         linear_extrude(material_z)
         difference() {
