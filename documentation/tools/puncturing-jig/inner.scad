@@ -6,6 +6,7 @@ module inner(
     material_z,
     rim,
     inner_size,
+    rib_distance_side,
 ) {
     hole_distance_nominal = 20;
     num_holes             = round(inner_size.x / hole_distance_nominal / 2) * 2;
@@ -13,7 +14,17 @@ module inner(
 
     difference() {
         linear_extrude(material_z)
-        square(inner_size);
+        difference() {
+            union() {
+                square(inner_size);
+
+                translate([inner_size.x / 2, inner_size.y])
+                square([inner_size.x / 2, rib_distance_side]);
+            }
+
+            translate([0, inner_size.y - rib_distance_side])
+            square([inner_size.x / 2, rib_distance_side]);
+        }
 
         for (i = [0:num_holes / 2 - 1]) {
             linear_extrude(rim * 4, center = true)
