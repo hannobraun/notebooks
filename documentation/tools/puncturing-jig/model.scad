@@ -33,6 +33,9 @@ rib_distance_front = outer_size.x / (num_ribs_front + 1);
 rib_distance_side  = outer_size.y / (num_ribs_side  + 1);
 
 
+$fn = 60;
+
+
 // outer(
 //     material_xy        = material_xy,
 //     material_z         = material_z,
