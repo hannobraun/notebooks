@@ -1,7 +1,29 @@
+// TASK: This is not the actual diameter of the awl. Figure that out.
+awl_diameter = 4;
+
+
 module inner(
     material_z,
+    rim,
     inner_size,
 ) {
-    linear_extrude(material_z)
-    square(inner_size);
+    hole_distance_nominal = 20;
+    num_holes             = round(inner_size.x / hole_distance_nominal / 2) * 2;
+    hole_distance_actual  = inner_size.x / num_holes;
+
+    difference() {
+        linear_extrude(material_z)
+        square(inner_size);
+
+        for (i = [0:num_holes / 2 - 1]) {
+            linear_extrude(rim * 4, center = true)
+            translate([
+                inner_size.x / 2
+                    + hole_distance_actual / 2
+                    + hole_distance_actual * i,
+                inner_size.y,
+            ])
+            circle(d = awl_diameter);
+        }
+    }
 }

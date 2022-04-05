@@ -51,5 +51,6 @@ $fn = 60;
 // );
 inner(
     material_z = material_z,
+    rim        = rim,
     inner_size = inner_size
 );
