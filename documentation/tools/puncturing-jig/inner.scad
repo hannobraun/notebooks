@@ -38,10 +38,14 @@ module inner(
                 children();
 
                 translate([inner_size.x / 2, inner_size.y])
-                square([inner_size.x / 2, rib_distance_side]);
+                connector_square();
             }
 
             translate([0, inner_size.y - rib_distance_side])
+            connector_square();
+        }
+
+        module connector_square() {
             square([inner_size.x / 2, rib_distance_side]);
         }
     }
