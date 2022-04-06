@@ -18,9 +18,13 @@ module inner(
     difference() {
         linear_extrude(material_z)
         connector()
-        square(inner_size);
+        base();
 
         holes();
+    }
+
+    module base() {
+        square(inner_size);
     }
 
     module holes() {
