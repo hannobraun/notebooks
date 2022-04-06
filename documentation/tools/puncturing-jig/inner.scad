@@ -27,13 +27,13 @@ module inner(
         difference() {
             children();
 
+            linear_extrude(rim * 4, center = true)
             for_each_hole()
             circle(d = awl_diameter);
         }
 
         module for_each_hole() {
             for (i = [0:num_holes / 2 - 1]) {
-                linear_extrude(rim * 4, center = true)
                 translate([
                     inner_size.x / 2
                         + hole_distance_actual / 2
