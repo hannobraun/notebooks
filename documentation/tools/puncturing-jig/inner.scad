@@ -22,7 +22,6 @@ module inner(
         square(inner_size);
     }
 
-    // TASK: Extend holes upwards, to guide awl.
     module add_holes() {
         difference() {
             union() {
