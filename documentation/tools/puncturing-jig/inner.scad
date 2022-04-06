@@ -25,7 +25,12 @@ module inner(
     // TASK: Extend holes upwards, to guide awl.
     module add_holes() {
         difference() {
-            children();
+            union() {
+                children();
+
+                for_each_hole()
+                cylinder(d = awl_diameter * 2, h = material_z + rim);
+            }
 
             linear_extrude(rim * 4, center = true)
             for_each_hole()
