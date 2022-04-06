@@ -14,28 +14,29 @@ module inner(
 
     // TASK: Add ribs.
     // TASK: Extend holes upwards, to guide awl.
-    difference() {
-        linear_extrude(material_z)
-        add_connector()
-        base();
-
-        holes();
-    }
+    holes()
+    linear_extrude(material_z)
+    add_connector()
+    base();
 
     module base() {
         square(inner_size);
     }
 
     module holes() {
-        for (i = [0:num_holes / 2 - 1]) {
-            linear_extrude(rim * 4, center = true)
-            translate([
-                inner_size.x / 2
-                    + hole_distance_actual / 2
-                    + hole_distance_actual * i,
-                inner_size.y,
-            ])
-            circle(d = awl_diameter);
+        difference() {
+            children();
+
+            for (i = [0:num_holes / 2 - 1]) {
+                linear_extrude(rim * 4, center = true)
+                translate([
+                    inner_size.x / 2
+                        + hole_distance_actual / 2
+                        + hole_distance_actual * i,
+                    inner_size.y,
+                ])
+                circle(d = awl_diameter);
+            }
         }
     }
 
