@@ -16,7 +16,7 @@ module inner(
     // TASK: Extend holes upwards, to guide awl.
     difference() {
         linear_extrude(material_z)
-        connector()
+        add_connector()
         base();
 
         holes();
@@ -39,7 +39,7 @@ module inner(
         }
     }
 
-    module connector() {
+    module add_connector() {
         difference() {
             union() {
                 children();
