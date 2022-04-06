@@ -17,17 +17,8 @@ module inner(
     // TASK: Extend holes upwards, to guide awl.
     difference() {
         linear_extrude(material_z)
-        difference() {
-            union() {
-                square(inner_size);
-
-                translate([inner_size.x / 2, inner_size.y])
-                square([inner_size.x / 2, rib_distance_side]);
-            }
-
-            translate([0, inner_size.y - rib_distance_side])
-            square([inner_size.x / 2, rib_distance_side]);
-        }
+        connector()
+        square(inner_size);
 
         for (i = [0:num_holes / 2 - 1]) {
             linear_extrude(rim * 4, center = true)
@@ -38,6 +29,20 @@ module inner(
                 inner_size.y,
             ])
             circle(d = awl_diameter);
+        }
+    }
+
+    module connector() {
+        difference() {
+            union() {
+                children();
+
+                translate([inner_size.x / 2, inner_size.y])
+                square([inner_size.x / 2, rib_distance_side]);
+            }
+
+            translate([0, inner_size.y - rib_distance_side])
+            square([inner_size.x / 2, rib_distance_side]);
         }
     }
 }
