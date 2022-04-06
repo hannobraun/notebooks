@@ -20,6 +20,10 @@ module inner(
         connector()
         square(inner_size);
 
+        holes();
+    }
+
+    module holes() {
         for (i = [0:num_holes / 2 - 1]) {
             linear_extrude(rim * 4, center = true)
             translate([
