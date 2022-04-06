@@ -27,6 +27,11 @@ module inner(
         difference() {
             children();
 
+            for_each_hole()
+            circle(d = awl_diameter);
+        }
+
+        module for_each_hole() {
             for (i = [0:num_holes / 2 - 1]) {
                 linear_extrude(rim * 4, center = true)
                 translate([
@@ -35,7 +40,7 @@ module inner(
                         + hole_distance_actual * i,
                     inner_size.y,
                 ])
-                circle(d = awl_diameter);
+                children();
             }
         }
     }
