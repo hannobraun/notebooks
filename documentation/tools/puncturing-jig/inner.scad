@@ -13,7 +13,6 @@ module inner(
     hole_distance_actual  = inner_size.x / num_holes;
 
     // TASK: Add ribs.
-    // TASK: Extend holes upwards, to guide awl.
     add_holes()
     linear_extrude(material_z)
     add_connector()
@@ -23,6 +22,7 @@ module inner(
         square(inner_size);
     }
 
+    // TASK: Extend holes upwards, to guide awl.
     module add_holes() {
         difference() {
             children();
