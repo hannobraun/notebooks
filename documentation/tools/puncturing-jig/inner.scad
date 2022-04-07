@@ -16,8 +16,8 @@ module inner(
 
     // TASK: Add ribs.
     add_holes()
-    linear_extrude(material_z)
     add_connector()
+    linear_extrude(material_z)
     base();
 
     module base() {
@@ -56,10 +56,12 @@ module inner(
             union() {
                 children();
 
+                linear_extrude(material_z)
                 translate([inner_size.x / 2, inner_size.y])
                 connector_square();
             }
 
+            linear_extrude(guide_height * 4, center = true)
             translate([0, inner_size.y - rib_distance_side])
             connector_square();
         }
