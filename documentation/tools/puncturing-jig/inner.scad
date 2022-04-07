@@ -12,6 +12,8 @@ module inner(
     num_holes             = round(inner_size.x / hole_distance_nominal / 2) * 2;
     hole_distance_actual  = inner_size.x / num_holes;
 
+    guide_height = rim * 4;
+
     // TASK: Add ribs.
     add_holes()
     linear_extrude(material_z)
@@ -31,7 +33,7 @@ module inner(
                 cylinder(d = awl_diameter * 2, h = material_z + rim);
             }
 
-            linear_extrude(rim * 4, center = true)
+            linear_extrude(guide_height, center = true)
             for_each_hole()
             circle(d = awl_diameter);
         }
