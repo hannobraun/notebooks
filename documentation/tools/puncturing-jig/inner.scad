@@ -62,8 +62,8 @@ module inner(
             }
 
             linear_extrude(guide_height * 4, center = true)
-            translate([0, inner_size.y - rib_distance_side])
-            square([inner_size.x / 2, rib_distance_side]);
+            translate([-inner_size.x / 2, inner_size.y - rib_distance_side])
+            square([inner_size.x, rib_distance_side * 2]);
         }
     }
 }
