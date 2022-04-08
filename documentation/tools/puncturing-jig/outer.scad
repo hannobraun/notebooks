@@ -6,9 +6,8 @@ module outer(
     inner_size,
     outer_size,
     base_size,
-    num_ribs_front,
-    num_ribs_side,
-    rib_distance_front,
+    rib_positions_front,
+    rib_positions_side,
     rib_distance_side,
 ) {
     connector()
@@ -31,22 +30,14 @@ module outer(
             horizontal(1.0);
 
             // Vertical front ribs
-            for (i = [1:num_ribs_front]) {
-                translate([
-                    rim + rib_distance_front * i - material_xy / 2,
-                    0,
-                    0,
-                ])
+            for (pos = rib_positions_front) {
+                translate([pos, 0, 0])
                 cube([material_xy, rim, height]);
             }
 
             // Vertical side ribs
-            for (i = [1:num_ribs_side + 1]) {
-                translate([
-                    0,
-                    rim + rib_distance_side * i - material_xy / 2,
-                    0,
-                ])
+            for (pos = rib_positions_side) {
+                translate([0, pos, 0])
                 cube([base_size.x, material_xy, height]);
             }
 

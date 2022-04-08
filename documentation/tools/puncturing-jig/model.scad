@@ -32,22 +32,30 @@ num_ribs_side  = round(outer_size.y / rib_distance_target - 1);
 rib_distance_front = outer_size.x / (num_ribs_front + 1);
 rib_distance_side  = outer_size.y / (num_ribs_side  + 1);
 
+rib_positions_front = [
+    for (i = [1:num_ribs_front])
+        rim + rib_distance_front * i - material_xy / 2
+];
+rib_positions_side = [
+    for (i = [1:num_ribs_side + 1])
+        rim + rib_distance_side * i - material_xy / 2
+];
+
 
 $fn = 60;
 
 
 // outer(
-//     material_xy        = material_xy,
-//     material_z         = material_z,
-//     height             = height,
-//     rim                = rim,
-//     inner_size         = inner_size,
-//     outer_size         = outer_size,
-//     base_size          = base_size,
-//     num_ribs_front     = num_ribs_front,
-//     num_ribs_side      = num_ribs_side,
-//     rib_distance_front = rib_distance_front,
-//     rib_distance_side  = rib_distance_side
+//     material_xy         = material_xy,
+//     material_z          = material_z,
+//     height              = height,
+//     rim                 = rim,
+//     inner_size          = inner_size,
+//     outer_size          = outer_size,
+//     base_size           = base_size,
+//     rib_positions_front = rib_positions_front,
+//     rib_positions_side  = rib_positions_side,
+//     rib_distance_side   = rib_distance_side
 // );
 inner(
     material_z        = material_z,
