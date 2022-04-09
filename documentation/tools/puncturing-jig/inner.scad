@@ -28,14 +28,17 @@ module inner(
         difference() {
             union() {
                 children();
-
-                for_each_hole()
-                cylinder(d = awl_diameter * 2, h = material_z + rim);
+                guides();
             }
 
             linear_extrude(guide_height, center = true)
             for_each_hole()
             circle(d = awl_diameter);
+        }
+
+        module guides() {
+            for_each_hole()
+            cylinder(d = awl_diameter * 2, h = material_z + rim);
         }
 
         module for_each_hole() {
