@@ -34,6 +34,12 @@ module inner(
             holes();
         }
 
+        // TASK: The awl point is conical and reaches its full diameter only
+        //       near the top. Making the guide (and therefore the whole tool)
+        //       high enough to accomodate that is not practical.
+        //
+        //       I think this means that the guide needs to be flexible, so it
+        //       centers the awl point all the way down.
         module guides() {
             for_each_hole()
             cylinder(d = awl_diameter * 2, h = material_z + rim);
