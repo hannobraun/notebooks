@@ -31,14 +31,18 @@ module inner(
                 guides();
             }
 
-            linear_extrude(guide_height, center = true)
-            for_each_hole()
-            circle(d = awl_diameter);
+            holes();
         }
 
         module guides() {
             for_each_hole()
             cylinder(d = awl_diameter * 2, h = material_z + rim);
+        }
+
+        module holes() {
+            linear_extrude(guide_height, center = true)
+            for_each_hole()
+            circle(d = awl_diameter);
         }
 
         module for_each_hole() {
