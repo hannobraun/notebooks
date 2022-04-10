@@ -58,8 +58,10 @@ $fn = 60;
 //     rib_distance_side   = rib_distance_side
 // );
 inner(
-    material_z        = material_z,
-    rim               = rim,
-    inner_size        = inner_size,
-    rib_distance_side = rib_distance_side
+    material_xy         = material_xy,
+    material_z          = material_z,
+    rim                 = rim,
+    inner_size          = inner_size,
+    rib_positions_front = rib_positions_front,
+    rib_distance_side   = rib_distance_side
 );

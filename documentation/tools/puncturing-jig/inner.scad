@@ -3,9 +3,11 @@ awl_diameter = 4;
 
 
 module inner(
+    material_xy,
     material_z,
     rim,
     inner_size,
+    rib_positions_front,
     rib_distance_side,
 ) {
     hole_distance_nominal = 20;
@@ -14,10 +16,12 @@ module inner(
 
     guide_height = rim * 4;
 
-    // TASK: Add ribs.
     add_holes()
     add_connector()
-    base();
+    union() {
+        base();
+        ribs();
+    }
 
     module base() {
         linear_extrude(material_z)
@@ -77,6 +81,16 @@ module inner(
             linear_extrude(guide_height * 4, center = true)
             translate([-inner_size.x / 2, inner_size.y - rib_distance_side])
             square([inner_size.x, rib_distance_side * 4]);
+        }
+    }
+
+    // TASK: Make sure front ribs don't interfere with holes.
+    // TASK: Round corners of ribs.
+    // TASK: Add side ribs.
+    module ribs() {
+        for (pos = rib_positions_front) {
+            translate([pos, 0, material_z])
+            cube([material_xy, inner_size.y + rib_distance_side, rim]);
         }
     }
 }
