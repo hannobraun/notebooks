@@ -31,13 +31,13 @@ module outer(
 
             // Vertical front ribs
             for (pos = rib_positions_front) {
-                translate([rim + pos, 0, 0])
+                translate([rim + material_xy + pos, 0, 0])
                 cube([material_xy, rim, height]);
             }
 
             // Vertical side ribs
             for (pos = rib_positions_side) {
-                translate([0, rim + pos, 0])
+                translate([0, rim + material_xy + pos, 0])
                 cube([base_size.x, material_xy, height]);
             }
 
