@@ -34,11 +34,11 @@ rib_distance_side  = outer_size.y / (num_ribs_side  + 1);
 
 rib_positions_front = [
     for (i = [1:num_ribs_front])
-        rim + rib_distance_front * i - material_xy / 2
+        rib_distance_front * i - material_xy / 2
 ];
 rib_positions_side = [
     for (i = [1:num_ribs_side + 1])
-        rim + rib_distance_side * i - material_xy / 2
+        rib_distance_side * i - material_xy / 2
 ];
 
 
