@@ -17,10 +17,10 @@ module inner(
     // TASK: Add ribs.
     add_holes()
     add_connector()
-    linear_extrude(material_z)
     base();
 
     module base() {
+        linear_extrude(material_z)
         square(inner_size);
     }
 
