@@ -26,7 +26,7 @@ base_size  = outer_size + [rim * 2, rim];
 
 rib_distance_target = 20;
 
-num_ribs_front = round(inner_size.x / rib_distance_target - 1);
+num_ribs_front = round((inner_size.x / rib_distance_target - 1) / 2) * 2 + 1;
 num_ribs_side  = round(inner_size.y / rib_distance_target - 1);
 
 rib_distance_front = inner_size.x / (num_ribs_front + 1);

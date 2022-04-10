@@ -84,7 +84,6 @@ module inner(
         }
     }
 
-    // TASK: Make sure front ribs don't interfere with holes.
     // TASK: Round corners of ribs.
     // TASK: Add side ribs.
     module ribs() {
