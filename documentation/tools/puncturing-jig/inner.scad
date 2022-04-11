@@ -68,6 +68,13 @@ module inner(
         }
     }
 
+    // TASK: Instead of having one protruding and one recessed part, consider
+    //       having multiple smaller such pairs, so there's a rib between each
+    //       pair. So basically have 4 protruding and 4 recessed parts.
+    //
+    //       This would provide more surface for the connectiong, as well as not
+    //       interrupt most of the ribs, which should make the final assembly
+    //       much stronger.
     module add_connector() {
         difference() {
             union() {
