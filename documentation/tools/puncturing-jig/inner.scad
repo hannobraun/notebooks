@@ -103,5 +103,11 @@ module inner(
             translate([0, pos, material_z])
             cube([inner_size.x, material_xy, rim]);
         }
+        translate([
+            0,
+            rib_positions_side[len(rib_positions_side) - 1] + rib_distance_side,
+            material_z,
+        ])
+        cube([inner_size.x, material_xy / 2, rim]);
     }
 }
