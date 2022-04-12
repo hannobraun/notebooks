@@ -63,5 +63,6 @@ inner(
     rim                 = rim,
     inner_size          = inner_size,
     rib_positions_front = rib_positions_front,
+    rib_positions_side  = rib_positions_side,
     rib_distance_side   = rib_distance_side
 );

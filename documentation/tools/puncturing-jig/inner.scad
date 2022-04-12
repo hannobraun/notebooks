@@ -8,6 +8,7 @@ module inner(
     rim,
     inner_size,
     rib_positions_front,
+    rib_positions_side,
     rib_distance_side,
 ) {
     hole_distance_nominal = 20;
@@ -92,11 +93,15 @@ module inner(
     }
 
     // TASK: Round corners of ribs.
-    // TASK: Add side ribs.
     module ribs() {
         for (pos = rib_positions_front) {
             translate([pos, 0, material_z])
             cube([material_xy, inner_size.y + rib_distance_side, rim]);
+        }
+
+        for (pos = rib_positions_side) {
+            translate([0, pos, material_z])
+            cube([inner_size.x, material_xy, rim]);
         }
     }
 }
