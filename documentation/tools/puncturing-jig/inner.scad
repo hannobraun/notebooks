@@ -1,5 +1,4 @@
-// TASK: This is not the actual diameter of the awl. Figure that out.
-awl_diameter = 4;
+awl_diameter = 1.8;
 
 
 module inner(
