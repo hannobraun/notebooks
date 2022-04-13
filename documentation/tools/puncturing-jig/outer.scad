@@ -1,15 +1,7 @@
-module outer(
-    material_xy,
-    material_z,
-    height,
-    rim,
-    inner_size,
-    outer_size,
-    base_size,
-    rib_positions_front,
-    rib_positions_side,
-    rib_distance_side,
-) {
+include <common.scad>
+
+
+module outer() {
     connector()
     difference() {
         union() {

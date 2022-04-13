@@ -1,15 +1,10 @@
+include <common.scad>
+
+
 awl_diameter = 1.8;
 
 
-module inner(
-    material_xy,
-    material_z,
-    rim,
-    inner_size,
-    rib_positions_front,
-    rib_positions_side,
-    rib_distance_side,
-) {
+module inner() {
     hole_distance_nominal = 20;
     num_holes             = round(inner_size.x / hole_distance_nominal / 2) * 2;
     hole_distance_actual  = inner_size.x / num_holes;
