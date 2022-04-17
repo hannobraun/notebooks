@@ -5,6 +5,13 @@ I have a daily habit of working on side projects. These projects used to be all 
 As I move more into physical projects, this doesn't work as well. But I do really like that daily commit as a way to track my habit, and I've decided I want to keep it. Hence this work log. Whenever I do work on this project that otherwise wouldn't result in a commit to this repository, I document it here.
 
 
+## 2022-04-17
+
+After running into problems with the jig I've been designing, I've started experimenting with drilling holes into the paper instead of puncturing it with an awl. Excellent first result. Very happy with the quality of the hole.
+
+Used an 1.5mm drill, 8.500 rpm.
+
+
 ## 2022-04-02
 
 Experimented with glueing PLA parts, which will be necessary for assembling the puncturing jig. Results: Acetone worked relatively well, hot glue and PVA glue didn't.
