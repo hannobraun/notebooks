@@ -9,6 +9,8 @@ As I move more into physical projects, this doesn't work as well. But I do reall
 
 After running into problems with the jig I've been designing, I've started experimenting with drilling holes into the paper instead of puncturing it with an awl. Excellent first result. Very happy with the quality of the hole.
 
+![A small round hole in a piece of paper](work-log/2022-04-17.jpg)
+
 Used an 1.5mm drill, 8.500 rpm.
 
 
