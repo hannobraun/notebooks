@@ -30,16 +30,21 @@ hole_distance_actual  = size_inner.x / num_holes;
 $fn = 60;
 
 
-difference() {
-    cube(size_outer);
+bottom();
 
-    translate([material_xy, material_xy, material_z])
-    union() {
-        cube([size_inner.x, size_inner.y * 2, size_inner.z * 2]);
 
-        for (i = [1:num_holes]) {
-            translate([hole_distance_actual * (i - 0.5), a5.y / 2, 0])
-            cylinder(d = hole_diameter, h = size_outer.z, center = true);
+module bottom() {
+    difference() {
+        cube(size_outer);
+
+        translate([material_xy, material_xy, material_z])
+        union() {
+            cube([size_inner.x, size_inner.y * 2, size_inner.z * 2]);
+
+            for (i = [1:num_holes]) {
+                translate([hole_distance_actual * (i - 0.5), a5.y / 2, 0])
+                cylinder(d = hole_diameter, h = size_outer.z, center = true);
+            }
         }
     }
 }
