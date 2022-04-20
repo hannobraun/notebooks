@@ -40,6 +40,8 @@ module bottom() {
         translate([material_xy, material_xy, material_z])
         union() {
             cube([size_inner.x, size_inner.y * 2, size_inner.z * 2]);
+
+            translate([0, a5.y / 2, 0])
             holes();
         }
     }
@@ -47,7 +49,7 @@ module bottom() {
 
 module holes() {
     for (i = [1:num_holes]) {
-        translate([hole_distance_actual * (i - 0.5), a5.y / 2, 0])
+        translate([hole_distance_actual * (i - 0.5), 0, 0])
         cylinder(d = hole_diameter, h = size_outer.z, center = true);
     }
 }
