@@ -11,6 +11,8 @@ a5 = [148, 210];
 
 hole_diameter = 1.5;
 
+gap = 0.2;
+
 size_inner = [
     a5.x,
     a5.y / 2 + hole_diameter * 3,
@@ -20,6 +22,11 @@ size_outer = [
     size_inner.x + material_xy * 2,
     size_inner.y + material_xy,
     size_inner.z + material_z,
+];
+size_top = [
+    size_inner.x - gap,
+    hole_diameter * 6,
+    material_z,
 ];
 
 hole_distance_nominal = 20;
@@ -31,6 +38,10 @@ $fn = 60;
 
 
 bottom();
+
+// TASK: Adjust top position to line up holes.
+translate([material_xy + gap / 2, a5.y / 2 - size_top.y / 2, size_inner.z / 2])
+top();
 
 
 module bottom() {
@@ -44,6 +55,16 @@ module bottom() {
             translate([0, a5.y / 2, 0])
             holes();
         }
+    }
+}
+
+// TASK: Add piece to line up top with bottom part.
+module top() {
+    difference() {
+        cube(size_top);
+
+        translate([0, size_top.y / 2, 0])
+        holes();
     }
 }
 
