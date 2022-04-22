@@ -10,12 +10,13 @@ material_z  = layer_height * 4;
 a5 = [148, 210];
 
 hole_diameter = 1.5;
+hole_offset   = hole_diameter * 3;
 
 gap = 0.2;
 
 size_inner = [
     a5.x,
-    a5.y / 2 + hole_diameter * 3,
+    a5.y / 2 + hole_offset,
     20,
 ];
 size_outer = [
@@ -25,7 +26,7 @@ size_outer = [
 ];
 size_top = [
     size_inner.x - gap,
-    hole_diameter * 6,
+    hole_offset * 2,
     material_z,
 ];
 
