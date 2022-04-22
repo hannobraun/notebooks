@@ -26,7 +26,7 @@ size_outer = [
 ];
 size_top = [
     size_inner.x - gap,
-    hole_offset * 2,
+    hole_offset * 2 + hole_offset,
     material_z,
 ];
 
@@ -62,10 +62,18 @@ module bottom() {
     }
 }
 
-// TASK: Add piece to line up top with bottom part.
 module top() {
     difference() {
-        cube(size_top);
+        union() {
+            cube(size_top);
+
+            translate([
+                (size_top.x - size_outer.x) / 2,
+                size_top.y - hole_offset,
+                0,
+            ])
+            cube([size_outer.x, hole_offset, material_z]);
+        }
 
         translate([0, size_top.y / 2, 0])
         holes();
