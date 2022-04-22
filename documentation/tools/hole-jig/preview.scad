@@ -42,7 +42,7 @@ bottom();
 
 translate([
     material_xy + gap / 2,
-    material_xy + a5.y / 2 - size_top.y / 2,
+    material_xy + size_inner.y - hole_offset * 2,
     size_inner.z / 2,
 ])
 top();
