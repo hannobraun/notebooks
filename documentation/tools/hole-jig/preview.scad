@@ -40,8 +40,11 @@ $fn = 60;
 
 bottom();
 
-// TASK: Adjust top position to line up holes.
-translate([material_xy + gap / 2, a5.y / 2 - size_top.y / 2, size_inner.z / 2])
+translate([
+    material_xy + gap / 2,
+    material_xy + a5.y / 2 - size_top.y / 2,
+    size_inner.z / 2,
+])
 top();
 
 
