@@ -65,7 +65,7 @@ module top() {
             cube([size_outer.x, hole_offset, material_z]);
         }
 
-        translate([0, size_top.y / 2, 0])
+        translate([0, hole_offset, 0])
         holes();
     }
 }
