@@ -5,6 +5,13 @@ I have a daily habit of working on side projects. These projects used to be all 
 As I move more into physical projects, this doesn't work as well. But I do really like that daily commit as a way to track my habit, and I've decided I want to keep it. Hence this work log. Whenever I do work on this project that otherwise wouldn't result in a commit to this repository, I document it here.
 
 
+## 2022-04-22
+
+Printed the new jig. I can already tell it's too flimsy, but it'll do for a first try. The holes of the top and the bottom parts don't line up though. I'll need to correct that.
+
+![A jig for drilling the required holes into paper](work-log/2022-04-22.jpg)
+
+
 ## 2022-04-19
 
 Continued sketching the new jig. Getting close to a minimalist design that I like.
