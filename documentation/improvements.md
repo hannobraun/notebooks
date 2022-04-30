@@ -5,8 +5,6 @@
 - Build jig to precisely place holes
   Preferably by puncturing (or drilling?) through all sheets at once.
 - Build jig to precisely fold signatures
-- Cut text block to size before adding the cover
-  Otherwise the bookmark gets in the way.
 - Try preparing the cover before glueing
   https://www.youtube.com/watch?v=zemN8_-q2zs
 - Use regular paper in the right size
