@@ -65,6 +65,10 @@ module top() {
             cube([size_outer.x, hole_offset, material_z]);
         }
 
+        // TASK: For some reason, the holes are not central on the top part. The
+        //       difference between the distances of the outer hole perimeters
+        //       to the outside of the part is about 0.2mm. This is visible in
+        //       the slicer, as well as the printed part.
         translate([0, hole_offset, 0])
         holes();
     }
