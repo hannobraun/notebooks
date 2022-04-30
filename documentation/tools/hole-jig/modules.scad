@@ -38,6 +38,28 @@ hole_distance_actual  = size_inner.x / num_holes;
 $fn = 60;
 
 
+// TASK: The current approach has two weaknesses:
+//       1. The construction is too flimsy. Everything should be a bit thicker,
+//          so the jig can be accurate.
+//       2. The inner size of the printed part is not completely accurate. It's
+//          short by about an extrusion width (0.45mm). This is *not* visible in
+//          the slicer, where everything is alright.
+//
+//       The source of the slight inaccuracy almost doesn't matter. The real
+//       problem is that the design is so dependent on perfect accuracy.
+//
+//       There's really no reason why the stack of paper should be enclosed on
+//       two sides in the first place. It should be perfectly fine, to have two
+//       orthogonal sides that meet at a corner (which should be relieved).
+//
+//       If the stack where to be constrained at the opposite sides, those
+//       opposite sides should be adjustable (and that would require a
+//       constraint at the top too).
+//
+//       I think a good approach for the next iteration would be a two-sided jig
+//       that has more substance to it.
+
+
 module bottom() {
     difference() {
         cube(size_outer);
