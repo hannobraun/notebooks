@@ -23,10 +23,8 @@ union() {
 
     translate([0, 0, base_size.z])
     union() {
-        translate([base_size.x - wall_total, wall_total, 0])
-        rotate([0, -90, 0])
-        rotate([0, 0, -90])
-        wall(base_size.x - wall_total);
+        translate([-wall_total, 0, 0])
+        front_wall(base_size.x - wall_total);
 
         translate([base_size.x - wall_total, base_size.y, 0])
         rotate([90, 0, 0])
@@ -37,6 +35,13 @@ union() {
 
 module base() {
     cube(base_size);
+}
+
+module front_wall(length) {
+    translate([base_size.x, wall_total, 0])
+    rotate([0, -90, 0])
+    rotate([0, 0, -90])
+    wall(length);
 }
 
 module wall(length) {
