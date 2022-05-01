@@ -5,16 +5,16 @@ a5 = [148, 210];
 layer_height    = 0.25;
 extrusion_width = 0.45;
 
-wall_angle     = 60;
-wall_height    = 10;
-wall_top       = extrusion_width * 2;
-wall_thickness = wall_top + wall_height / tan(wall_angle);
+wall_angle  = 60;
+wall_height = 10;
+wall_top    = extrusion_width * 2;
+wall_total  = wall_top + wall_height / tan(wall_angle);
 
-echo(wall_thickness);
+echo(wall_total);
 
 base_size = [
-    a5.x * 0.75 + wall_thickness,
-    a5.y * 0.75 + wall_thickness,
+    a5.x * 0.75 + wall_total,
+    a5.y * 0.75 + wall_total,
     layer_height * 4,
 ];
 
