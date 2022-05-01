@@ -21,14 +21,17 @@ base_size = [
 union() {
     base();
 
-    translate([base_size.x - wall_total, wall_total, base_size.z])
-    rotate([0, -90, 0])
-    rotate([0, 0, -90])
-    wall(base_size.x - wall_total);
+    translate([0, 0, base_size.z])
+    union() {
+        translate([base_size.x - wall_total, wall_total, 0])
+        rotate([0, -90, 0])
+        rotate([0, 0, -90])
+        wall(base_size.x - wall_total);
 
-    translate([base_size.x - wall_total, base_size.y, base_size.z])
-    rotate([90, 0, 0])
-    wall(base_size.y - wall_total);
+        translate([base_size.x - wall_total, base_size.y, 0])
+        rotate([90, 0, 0])
+        wall(base_size.y - wall_total);
+    }
 }
 
 
