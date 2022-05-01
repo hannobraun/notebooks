@@ -18,6 +18,8 @@ base_size = [
 ];
 
 
+// TASK: Extract into module.
+// TASK: Add holes.
 union() {
     base();
 
@@ -28,6 +30,8 @@ union() {
 
         translate([0, wall_total, 0])
         side_wall(base_size.y - wall_total);
+
+        // TASK: Add corner.
     }
 }
 
