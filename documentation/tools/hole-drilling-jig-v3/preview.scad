@@ -34,7 +34,10 @@ module bottom() {
             translate([0, wall_total, 0])
             side_wall(base_size.y - wall_total);
 
-            // TASK: Add corner.
+            intersection() {
+                front_wall(wall_total);
+                side_wall(wall_total);
+            }
         }
     }
 }
