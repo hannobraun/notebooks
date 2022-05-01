@@ -18,9 +18,26 @@ base_size = [
 ];
 
 
-base();
+union() {
+    base();
+
+    translate([base_size.x - wall_total, wall_total, base_size.z])
+    rotate([0, -90, 0])
+    rotate([0, 0, -90])
+    wall(base_size.x - wall_total);
+}
 
 
 module base() {
     cube(base_size);
+}
+
+module wall(length) {
+    linear_extrude(length)
+    polygon([
+        [         0,           0],
+        [wall_total,           0],
+        [  wall_top, wall_height],
+        [         0, wall_height],
+    ]);
 }
