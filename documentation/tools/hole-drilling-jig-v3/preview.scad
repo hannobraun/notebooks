@@ -10,8 +10,6 @@ wall_height = 10;
 wall_top    = extrusion_width * 2;
 wall_total  = wall_top + wall_height / tan(wall_angle);
 
-echo(wall_total);
-
 base_size = [
     a5.x * 0.75 + wall_total,
     a5.y * 0.75 + wall_total,
