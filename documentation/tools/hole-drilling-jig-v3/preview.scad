@@ -25,6 +25,10 @@ union() {
     rotate([0, -90, 0])
     rotate([0, 0, -90])
     wall(base_size.x - wall_total);
+
+    translate([base_size.x - wall_total, base_size.y, base_size.z])
+    rotate([90, 0, 0])
+    wall(base_size.y - wall_total);
 }
 
 
