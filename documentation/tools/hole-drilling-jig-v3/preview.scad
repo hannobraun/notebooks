@@ -18,23 +18,26 @@ base_size = [
 ];
 
 
-// TASK: Extract into module.
+bottom();
+
+
 // TASK: Add holes.
-union() {
-    base();
-
-    translate([0, 0, base_size.z])
+module bottom() {
     union() {
-        translate([-wall_total, 0, 0])
-        front_wall(base_size.x - wall_total);
+        base();
 
-        translate([0, wall_total, 0])
-        side_wall(base_size.y - wall_total);
+        translate([0, 0, base_size.z])
+        union() {
+            translate([-wall_total, 0, 0])
+            front_wall(base_size.x - wall_total);
 
-        // TASK: Add corner.
+            translate([0, wall_total, 0])
+            side_wall(base_size.y - wall_total);
+
+            // TASK: Add corner.
+        }
     }
 }
-
 
 module base() {
     cube(base_size);
