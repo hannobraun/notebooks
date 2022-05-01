@@ -26,9 +26,8 @@ union() {
         translate([-wall_total, 0, 0])
         front_wall(base_size.x - wall_total);
 
-        translate([base_size.x - wall_total, base_size.y, 0])
-        rotate([90, 0, 0])
-        wall(base_size.y - wall_total);
+        translate([0, wall_total, 0])
+        side_wall(base_size.y - wall_total);
     }
 }
 
@@ -41,6 +40,12 @@ module front_wall(length) {
     translate([base_size.x, wall_total, 0])
     rotate([0, -90, 0])
     rotate([0, 0, -90])
+    wall(length);
+}
+
+module side_wall(length) {
+    translate([base_size.x - wall_total, length, 0])
+    rotate([90, 0, 0])
     wall(length);
 }
 
