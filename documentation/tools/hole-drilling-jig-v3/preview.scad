@@ -17,28 +17,39 @@ base_size = [
     layer_height * 4,
 ];
 
+hole_diameter = 1.5;
+hole_offset   = hole_diameter * 3;
+
+hole_distance_nominal = 20;
+num_holes             = round(a5.x / hole_distance_nominal / 2) * 2;
+hole_distance_actual  = a5.x / num_holes;
+
 
 bottom();
 
 
-// TASK: Add holes.
 module bottom() {
-    union() {
-        base();
-
-        translate([0, 0, base_size.z])
+    difference() {
         union() {
-            translate([-wall_total, 0, 0])
-            front_wall(base_size.x - wall_total);
+            base();
 
-            translate([0, wall_total, 0])
-            side_wall(base_size.y - wall_total);
+            translate([0, 0, base_size.z])
+            union() {
+                translate([-wall_total, 0, 0])
+                front_wall(base_size.x - wall_total);
 
-            intersection() {
-                front_wall(wall_total);
-                side_wall(wall_total);
+                translate([0, wall_total, 0])
+                side_wall(base_size.y - wall_total);
+
+                intersection() {
+                    front_wall(wall_total);
+                    side_wall(wall_total);
+                }
             }
         }
+
+        translate([0, wall_total + a5.y / 2, 0])
+        holes();
     }
 
     module base() {
@@ -66,5 +77,12 @@ module bottom() {
             [  wall_top, wall_height],
             [         0, wall_height],
         ]);
+    }
+}
+
+module holes() {
+    for (i = [1:num_holes]) {
+        translate([hole_distance_actual * (i - 0.5), 0, 0])
+        cylinder(d = hole_diameter, h = base_size.z * 4, center = true);
     }
 }
