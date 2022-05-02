@@ -12,7 +12,7 @@ wall_slope  = wall_height / tan(wall_angle);
 wall_total  = wall_top + wall_slope;
 
 base_size = [
-    a5.x * 0.75 + wall_total,
+    a5.x        + wall_total,
     a5.y * 0.75 + wall_total,
     layer_height * 4,
 ];
