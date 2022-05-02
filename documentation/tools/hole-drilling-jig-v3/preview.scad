@@ -25,6 +25,9 @@ num_holes             = round(a5.x / hole_distance_nominal / 2) * 2;
 hole_distance_actual  = a5.x / num_holes;
 
 
+$fn = 60;
+
+
 bottom();
 
 
