@@ -40,31 +40,31 @@ module bottom() {
             }
         }
     }
-}
 
-module base() {
-    cube(base_size);
-}
+    module base() {
+        cube(base_size);
+    }
 
-module front_wall(length) {
-    translate([base_size.x, wall_total, 0])
-    rotate([0, -90, 0])
-    rotate([0, 0, -90])
-    wall(length);
-}
+    module front_wall(length) {
+        translate([base_size.x, wall_total, 0])
+        rotate([0, -90, 0])
+        rotate([0, 0, -90])
+        wall(length);
+    }
 
-module side_wall(length) {
-    translate([base_size.x - wall_total, length, 0])
-    rotate([90, 0, 0])
-    wall(length);
-}
+    module side_wall(length) {
+        translate([base_size.x - wall_total, length, 0])
+        rotate([90, 0, 0])
+        wall(length);
+    }
 
-module wall(length) {
-    linear_extrude(length)
-    polygon([
-        [         0,           0],
-        [wall_total,           0],
-        [  wall_top, wall_height],
-        [         0, wall_height],
-    ]);
+    module wall(length) {
+        linear_extrude(length)
+        polygon([
+            [         0,           0],
+            [wall_total,           0],
+            [  wall_top, wall_height],
+            [         0, wall_height],
+        ]);
+    }
 }
