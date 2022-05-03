@@ -1,4 +1,6 @@
 include <modules.scad>;
 
 bottom();
-// TASK: Add top.
+
+translate([0, wall_total, base_size.z * 2])
+top();

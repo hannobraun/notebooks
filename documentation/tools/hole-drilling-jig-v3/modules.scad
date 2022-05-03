@@ -85,6 +85,19 @@ module bottom() {
     }
 }
 
+module top() {
+    difference() {
+        cube([
+            work_area.x,
+            work_area.y,
+            layer_height * 4,
+        ]);
+
+        translate([0, a5.y / 2, 0])
+        holes();
+    }
+}
+
 module holes() {
     for (i = [1:num_holes]) {
         translate([hole_distance_actual * (i - 0.5), 0, 0])
