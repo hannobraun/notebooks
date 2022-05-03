@@ -11,9 +11,14 @@ wall_top    = extrusion_width * 2;
 wall_slope  = wall_height / tan(wall_angle);
 wall_total  = wall_top + wall_slope;
 
+work_area = [
+    a5.x,
+    a5.y * 0.75,
+];
+
 base_size = [
-    a5.x        + wall_total,
-    a5.y * 0.75 + wall_total,
+    work_area.x + wall_total,
+    work_area.y + wall_total,
     layer_height * 4,
 ];
 
