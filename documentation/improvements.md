@@ -2,6 +2,8 @@
 
 ## Process
 
+- Consider pressing each signature separately, before sewing
+  That might reduce the overall thickness at the spine.
 - Build jig to precisely fold signatures
 - Try preparing the cover before glueing
   https://www.youtube.com/watch?v=zemN8_-q2zs
@@ -11,8 +13,17 @@
   Using a knife is tedious and requires sanding afterwards. While that gives the notebook a rough appearance that I kinda like, it would be nicer to just cut if off straight, in one go, using a specialized tool.
 
 
+  ## Tools
+
+  - The hole guide doesn't work perfectly
+    It's too easy to enlarge the holes accidentally. It might work better to have a funnel-like shape, as long as that works with the total length of the drill bit.
+    Long-term, a harder material would be good, but that should come after prototyping.
+
+
 ## Product
 
+- Consider using lighter paper
+  The A5 paper is a bit heavier (120g/m²) than normal paper (80g/m²). I have yet to see how the end product turns out, but the added thickness certainly makes the problems with the spine worse.
 - Find a way to make the cover and end page more bendable
   With the recent models, the first pages have a harder time opening than previously. I think the problem is, that the cover is more or less directly connected to the text block, via the end page, where that is glued to the text block.
   Idea: Have double end pages, with the outer end page glued to the cover, the inner glued to the text block along the 5mm strip, as currently. The fold of the double end page provides a joint that prevents the cover from applying force to the text block, when the cover is folded out.
