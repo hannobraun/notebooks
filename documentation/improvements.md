@@ -2,11 +2,6 @@
 
 ## Process
 
-- Use regular paper in the right size
-  That would save some preparation work.
-  https://www.amazon.de/Druckerpapier-Gesch%C3%A4ftspapier-Laserpapier-Universalpapier-Werbebl%C3%A4tter/dp/B08TTF5LPV/
-- Build jig to precisely place holes
-  Preferably by puncturing (or drilling?) through all sheets at once.
 - Build jig to precisely fold signatures
 - Try preparing the cover before glueing
   https://www.youtube.com/watch?v=zemN8_-q2zs
