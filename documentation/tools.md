@@ -2,7 +2,9 @@
 
 ## Custom-built
 
-So far, I've custom-built one tool: a simple [book press](tools/book-press.md).
+So far, I've made the following tools:
+- A simple [book press](tools/book-press.md)
+- A drill guide
 
 
 ## Specific tools
@@ -19,6 +21,8 @@ I've bought these specifically for making notebooks. I've linked the source I bo
 
 These are just standard tools that I already had in my workshop, or found around the apartment.
 
+- A benchtop drill press
+  - 1.5mm drill
 - A knife
 - A ruler
 - A pencil
