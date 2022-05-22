@@ -98,9 +98,9 @@ Again, use the brush to prevent creases in the mull.
 
 ## Finish the text block
 
-1. Use sandpaper to sand short sides of text block, neighboring the spine.
+1. Use sandpaper to sand the short sides of text block, neighboring the spine.
 
-It doesn't need to be perfect, but any crevices should be evened out. Use combination from the spine to figure out how the side should oriented, if necessary.
+It doesn't need to be perfect, but any crevices should be evened out. Use combination square from the spine to figure out how the side should be oriented, if necessary.
 
 2. Use sandpaper to sand long side of the text block, opposite the spine.
 
