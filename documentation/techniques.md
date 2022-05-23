@@ -18,7 +18,7 @@ The build process documentation refers to them here, to keep that documentation 
 
 1. Fold the piece of paper.
 2. Unfold it again.
-3. Place the paper flat on the work surface; the outside of the fold on top.
+3. Place the paper flat on the work surface; the outside of the fold on the bottom.
 4. Place the straight edge of the aluminium block on the fold.
 5. Cut along the fold, using the aluminium block as a ruler.
 
