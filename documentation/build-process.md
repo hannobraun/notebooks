@@ -104,7 +104,7 @@ It doesn't need to be perfect, but any crevices should be evened out. Use combin
 
 2. Use sandpaper to sand long side of the text block, opposite the spine.
 
-Use combination square from one of the side to figure out orientation, if necessary.
+Use combination square from one of the sides to figure out orientation, if necessary.
 
 3. Round all corners with the corner punch
 
