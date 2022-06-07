@@ -119,9 +119,12 @@ It should be big enough, that it will protrude everywhere after you glued it to 
 
 The sheet should be big enough to stick out on all sides under the end page.
 
-3. Apply PVA glue to one side of the text block.
-3. Glue cover onto that side.
+3. Apply PVA glue to the front side of the text block.
+3. Glue cover onto the front side side.
 4. Clamp in book press, let it dry for 30 minutes.
+
+Glueing the front side first, gives you the opportunity to add the rubber band for keeping the notebook closed.
+
 5. Apply PVA glue to the inside of the cover, where it will touch the spine.
 6. Put parchment paper under the other end page.
 7. Apply PVA glue to that side of the text block.
