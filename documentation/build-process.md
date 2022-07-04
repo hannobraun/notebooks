@@ -37,14 +37,14 @@ It doesn't need to be perfect. Just do the best you can, and make sure no signat
 ## Add the end pages
 
 1. Cut a thick sheet of paper in half, resulting in two A5-sized sheets.
-2. Cut one of them in half again, resulting in two A6-sized sheets.
+2. Fold those A5-sized sheets.
 
-The two resulting sheets will be used as the end pages.
+The two resulting sheets will be used as the end pages. Those are doubled up on each side, to prevent strain from opening the cover to transfer to and damage the text block.
 
 3. Lay the two end pages on top of each other, so one covers the other.
 4. Move the top end page, so a part of it along a longer edge sticks out.
 
-The part that sticks out should be a roughly 5mm broad strip.
+The part that sticks out should be a roughly 5mm broad strip along the folded end.
 
 5. Apply glue to that 5mm strip of the bottom end page.
 6. Switch their positions.
