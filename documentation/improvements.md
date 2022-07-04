@@ -24,9 +24,6 @@
 
 - Consider using lighter paper
   The A5 paper is a bit heavier (120g/m²) than normal paper (80g/m²). I have yet to see how the end product turns out, but the added thickness certainly makes the problems with the spine worse.
-- Find a way to make the cover and end page more bendable
-  With the recent models, the first pages have a harder time opening than previously. I think the problem is, that the cover is more or less directly connected to the text block, via the end page, where that is glued to the text block.
-  Idea: Have double end pages, with the outer end page glued to the cover, the inner glued to the text block along the 5mm strip, as currently. The fold of the double end page provides a joint that prevents the cover from applying force to the text block, when the cover is folded out.
 - Make sure spine is straight, and there's not a large gap to the cover
 - Add flexible band that can keep the notebook closed
   https://www.schmedt.de/gummilitze-flach-umsponnen-mit-einem-farbigen-faden/51865002
