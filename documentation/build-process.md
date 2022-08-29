@@ -109,7 +109,7 @@ Use combination square from one of the sides to figure out orientation, if neces
 3. Round all corners with the corner punch
 
 
-## Add the cover
+## Start adding the cover
 
 1. Cut out a rectangular piece of cork.
 
@@ -125,14 +125,42 @@ The sheet should be big enough to stick out on all sides under the end page.
 
 Glueing the front side first, gives you the opportunity to add the rubber band for keeping the notebook closed.
 
-6. Apply PVA glue to the inside of the cover, where it will touch the spine.
-7. Put parchment paper under the other end page.
-8. Apply PVA glue to that side of the text block.
-9. Press cover onto text block, starting at the already glued side.
+
+## Add the rubber band
+
+1. Put back side of the cover onto text block, where you will glue it later.
+2. With a pencil, draw outline of text block onto inside of back side of cover.
+
+This will result in three lines on the inside of the text block: One parallel to the outer side (the one opposite the spine), one parallel to the upper side, one parallel to the lower side. For simplicity, we'll call those the outer, upper, and lower line.
+
+3. Draw another line parallel to the outer line, in the direction of the spine.
+
+The parallel line should be 20 mm from the outer line.
+
+4. On parallel line, mark the spots 15 mm from the upper and lower lines.
+5. At these markings, cut slits that are parallel to the upper and lower lines.
+
+The slits should be just broad enough for the rubber band to fit through.
+
+6. Cut of 15 cm of the rubber band.
+7. Put ends of the rubber band through the slits, from outside to inside
+8. Pull ends towards the inside, until rubber band feels tight enough.
+
+It should be tight enough to comfortably keep the notebook closed, once everything is glued together.
+
+9. Glue ends of rubber band to inside of cover. Let it dry for 30 minutes.
+
+
+## Finish adding the cover
+
+1. Apply PVA glue to the inside of the cover, where it will touch the spine.
+2. Put parchment paper under the other end page.
+3. Apply PVA glue to that side of the text block.
+4. Press cover onto text block, starting at the already glued side.
 
 By starting at that side, and moving over the spine, towards the free end of the cover, you minimize the gap between cover and spine.
 
-10. Clamp in book press, let it dry for 30 minutes.
+5. Clamp in book press, let it dry for 30 minutes.
 
 
 ## Cut cover to size
