@@ -8,4 +8,5 @@ These are the materials required to make a notebook. I've linked the source for 
 - PVA glue
 - [Bookmark ribbon](https://www.schmedt.de/zeichenlitze-lesezeichenband-spitzenqualitaet/50825483)
 - [Roll of mull, 60mm wide](https://www.schmedt.de/heftgaze-in-schmalrollen-dreifaedig-3-kettfaeden/2651-060)
+- [Rubber band](https://www.schmedt.de/gummilitze-flach-umsponnen-mit-einem-farbigen-faden/51865002)
 - [Cork leather](https://cork-shop.com/Korkleder-Korkstoff-vegan-Leder-naehen-basteln-kreativ-viele-Designs-und-Abmessungen-Cactus-70x50cm_1)
